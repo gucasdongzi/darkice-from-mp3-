@@ -1,0 +1,38 @@
+DarkIce 1.1 live audio streamer, http://code.google.com/p/darkice/
+Copyright (c) 2000-2007, Tyrell Hungary, http://tyrell.hu/
+Copyright (c) 2008-2010, Akos Maroy and Rafael Diniz
+This is free software, and you are welcome to redistribute it 
+under the terms of The GNU General Public License version 3 or
+any later version.
+
+Using config file: /etc/darkice_dabing.cfg
+Using CIRCLE Controlled input: circle
+/home/languoliang/old
+/home/languoliang/new
+/home/languoliang/music
+48000	22050
+Using POSIX real-time scheduling, priority 3
+connector open
+circle open
+Using faac codec version 1.28
+transfer
+oldFileNum = 61
+newFileNum = 0
+oldPlayNum = 4
+newPlayNum = 0
+The randSeq is: 25 27 31 43
+/home/languoliang/old/201206051200.s48
+/home/languoliang/old/201207271200.s48
+/home/languoliang/old/201206081200.s48
+/home/languoliang/old/201207231200.s48
+
+
+It is the 1th day
+It is the 1th times to play this list
+
+Using Mp3 File: /home/languoliang/old/201206051200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+fileTime = 3601 S
+Local time is: Sun Mar 24 18:19:12 2013
