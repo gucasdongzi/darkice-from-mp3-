@@ -1,0 +1,4040 @@
+DarkIce 1.1 live audio streamer, http://code.google.com/p/darkice/
+Copyright (c) 2000-2007, Tyrell Hungary, http://tyrell.hu/
+Copyright (c) 2008-2010, Akos Maroy and Rafael Diniz
+This is free software, and you are welcome to redistribute it 
+under the terms of The GNU General Public License version 3 or
+any later version.
+
+Using config file: /etc/darkice_epg.cfg
+Using EPG Controlled input: epg
+mysql connect success
+48000	22050
+Using POSIX real-time scheduling, priority 3
+connector open
+epgsource open
+Using faac codec version 1.28
+transfer
+Wed Apr  3 10:31:51 2013
+now play a new source
+now play a new program
+Wed Apr  3 10:31:51 CST 2013
+strftime=10:31:51
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '10:31:51' AND EndTime > '10:31:51') OR ((StartTime > EndTime) AND ((StartTime <= '10:31:51') OR (EndTime > '10:31:51'))))
+elapseLeft=1689000.000000
+lastFile=吉田洁-TVエンディングテーマ.mp3
+buf = 吉田洁-旅立ち.mp3
+Using Mp3 File: /home/superrh/music/吉田洁-旅立ち.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=206352
+fSize=3301632 startOffset=0  endOffset=3301631  offlen=3301632
+now play a new source, filename = /home/superrh/music/吉田洁-旅立ち.mp3
+now file end
+strip before close
+File /home/superrh/music/吉田洁-旅立ち.mp3 read over    count = 9673  time : Wed Apr  3 10:35:15 2013
+
+Wed Apr  3 10:35:15 2013
+now play a new source
+elapseLeft=1482672.000000
+lastFile=吉田洁-旅立ち.mp3
+buf = 吉田洁-望乡.mp3
+Using Mp3 File: /home/superrh/music/吉田洁-望乡.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=125856
+fSize=2013696 startOffset=0  endOffset=2013695  offlen=2013696
+now play a new source, filename = /home/superrh/music/吉田洁-望乡.mp3
+now file end
+strip before close
+File /home/superrh/music/吉田洁-望乡.mp3 read over    count = 15573  time : Wed Apr  3 10:37:21 2013
+
+Wed Apr  3 10:37:21 2013
+now play a new source
+elapseLeft=1356840.000000
+lastFile=吉田洁-望乡.mp3
+buf = 土耳其进行曲（莫扎特）.mp3
+Using Mp3 File: /home/superrh/music/土耳其进行曲（莫扎特）.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=200976
+fSize=3215616 startOffset=0  endOffset=3215615  offlen=3215616
+now play a new source, filename = /home/superrh/music/土耳其进行曲（莫扎特）.mp3
+now file end
+strip before close
+File /home/superrh/music/土耳其进行曲（莫扎特）.mp3 read over    count = 24994  time : Wed Apr  3 10:40:42 2013
+
+Wed Apr  3 10:40:42 2013
+now play a new source
+elapseLeft=1155888.000000
+lastFile=土耳其进行曲（莫扎特）.mp3
+buf = 天空之城.mp3
+Using Mp3 File: /home/superrh/music/天空之城.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=154416
+fSize=2470656 startOffset=0  endOffset=2470655  offlen=2470656
+now play a new source, filename = /home/superrh/music/天空之城.mp3
+now file end
+strip before close
+File /home/superrh/music/天空之城.mp3 read over    count = 32233  time : Wed Apr  3 10:43:16 2013
+
+Wed Apr  3 10:43:16 2013
+now play a new source
+elapseLeft=1001496.000000
+lastFile=天空之城.mp3
+buf = 宋家王朝(THE_SOONG_SISTER).mp3
+Using Mp3 File: /home/superrh/music/宋家王朝(THE_SOONG_SISTER).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=232752
+fSize=3724032 startOffset=0  endOffset=3724031  offlen=3724032
+now play a new source, filename = /home/superrh/music/宋家王朝(THE_SOONG_SISTER).mp3
+now file end
+strip before close
+File /home/superrh/music/宋家王朝(THE_SOONG_SISTER).mp3 read over    count = 43144  time : Wed Apr  3 10:47:09 2013
+
+Wed Apr  3 10:47:09 2013
+now play a new source
+elapseLeft=768768.000000
+lastFile=宋家王朝(THE_SOONG_SISTER).mp3
+buf = 宗次郎-幼き瞳～.mp3
+Using Mp3 File: /home/superrh/music/宗次郎-幼き瞳～.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=275160
+fSize=4402560 startOffset=0  endOffset=4402559  offlen=4402560
+now play a new source, filename = /home/superrh/music/宗次郎-幼き瞳～.mp3
+now file end
+strip before close
+File /home/superrh/music/宗次郎-幼き瞳～.mp3 read over    count = 56042  time : Wed Apr  3 10:51:44 2013
+
+Wed Apr  3 10:51:44 2013
+now play a new source
+elapseLeft=493632.000000
+lastFile=宗次郎-幼き瞳～.mp3
+buf = 尽情哭泣_《阿育王》插曲.mp3
+Using Mp3 File: /home/superrh/music/尽情哭泣_《阿育王》插曲.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=242064
+fSize=3873024 startOffset=0  endOffset=3873023  offlen=3873024
+now play a new source, filename = /home/superrh/music/尽情哭泣_《阿育王》插曲.mp3
+now file end
+strip before close
+File /home/superrh/music/尽情哭泣_《阿育王》插曲.mp3 read over    count = 67389  time : Wed Apr  3 10:55:46 2013
+
+Wed Apr  3 10:55:46 2013
+now play a new source
+elapseLeft=251592.000000
+lastFile=尽情哭泣_《阿育王》插曲.mp3
+buf = 忧伤还是快乐.mp3
+Using Mp3 File: /home/superrh/music/忧伤还是快乐.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=230208
+fSize=3683328 startOffset=0  endOffset=3683327  offlen=3683328
+now play a new source, filename = /home/superrh/music/忧伤还是快乐.mp3
+now file end
+strip before close
+File /home/superrh/music/忧伤还是快乐.mp3 read over    count = 78180  time : Wed Apr  3 10:59:37 2013
+
+Wed Apr  3 10:59:37 2013
+now play a new source
+elapseLeft=21408.000000
+lastFile=忧伤还是快乐.mp3
+buf = 情书(LOVELETTER_TO_YOU).mp3
+Using Mp3 File: /home/superrh/music/情书(LOVELETTER_TO_YOU).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=21409
+fSize=3047808 startOffset=0  endOffset=343338  offlen=343339
+now play a new source, filename = /home/superrh/music/情书(LOVELETTER_TO_YOU).mp3
+now file end
+strip before close
+File /home/superrh/music/情书(LOVELETTER_TO_YOU).mp3 read over    count = 79187  time : Wed Apr  3 10:59:58 2013
+
+Wed Apr  3 10:59:58 2013
+now play a new source
+now play a new program
+Wed Apr  3 10:59:58 CST 2013
+strftime=11:00:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '11:00:01' AND EndTime > '11:00:01') OR ((StartTime > EndTime) AND ((StartTime <= '11:00:01') OR (EndTime > '11:00:01'))))
+elapseLeft=7199952.000000
+lastFile=201207021200.s48
+buf = 201207031200.s48
+Using S48 File: /home/superrh/old/201207031200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207031200.s48
+now file end
+strip before close
+File /home/superrh/old/201207031200.s48 read over    count = 247985  time : Wed Apr  3 11:59:59 2013
+
+Wed Apr  3 11:59:59 2013
+now play a new source
+elapseLeft=3598968.000000
+lastFile=201207031200.s48
+buf = 201207041200.s48
+Using S48 File: /home/superrh/old/201207041200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3598969
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207041200.s48
+now file end
+strip before close
+File /home/superrh/old/201207041200.s48 read over    count = 416783  time : Wed Apr  3 13:00:00 2013
+
+Wed Apr  3 13:00:00 2013
+now play a new source
+now play a new program
+Wed Apr  3 13:00:00 CST 2013
+strftime=13:00:03
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '13:00:03' AND EndTime > '13:00:03') OR ((StartTime > EndTime) AND ((StartTime <= '13:00:03') OR (EndTime > '13:00:03'))))
+elapseLeft=7797984.000000
+lastFile=201207041200.s48
+buf = 201207051200.s48
+Using S48 File: /home/superrh/old/201207051200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207051200.s48
+now file end
+strip before close
+File /home/superrh/old/201207051200.s48 read over    count = 585581  time : Wed Apr  3 14:00:01 2013
+
+Wed Apr  3 14:00:01 2013
+now play a new source
+elapseLeft=4197000.000000
+lastFile=201207051200.s48
+buf = 201207061200.s48
+Using S48 File: /home/superrh/old/201207061200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207061200.s48
+now file end
+strip before close
+File /home/superrh/old/201207061200.s48 read over    count = 754379  time : Wed Apr  3 15:00:02 2013
+
+Wed Apr  3 15:00:02 2013
+now play a new source
+elapseLeft=596016.000000
+lastFile=201207061200.s48
+buf = 201207071200.s48
+Using S48 File: /home/superrh/old/201207071200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=596017
+fSize=115232256 startOffset=0  endOffset=19085407  offlen=19085408
+now play a new source, filename = /home/superrh/old/201207071200.s48
+now file end
+strip before close
+File /home/superrh/old/201207071200.s48 read over    count = 782337  time : Wed Apr  3 15:09:58 2013
+
+Wed Apr  3 15:09:58 2013
+now play a new source
+now play a new program
+Wed Apr  3 15:09:58 CST 2013
+strftime=15:10:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '15:10:01' AND EndTime > '15:10:01') OR ((StartTime > EndTime) AND ((StartTime <= '15:10:01') OR (EndTime > '15:10:01'))))
+elapseLeft=4199616.000000
+lastFile=情书(LOVELETTER_TO_YOU).mp3
+buf = 摇篮曲-舒伯特.mp3
+Using Mp3 File: /home/superrh/music/摇篮曲-舒伯特.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=143352
+fSize=2293632 startOffset=0  endOffset=2293631  offlen=2293632
+now play a new source, filename = /home/superrh/music/摇篮曲-舒伯特.mp3
+now file end
+strip before close
+File /home/superrh/music/摇篮曲-舒伯特.mp3 read over    count = 789057  time : Wed Apr  3 15:12:22 2013
+
+Wed Apr  3 15:12:22 2013
+now play a new source
+elapseLeft=4056288.000000
+lastFile=摇篮曲-舒伯特.mp3
+buf = 故乡的原风景.mp3
+Using Mp3 File: /home/superrh/music/故乡的原风景.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=282696
+fSize=4523136 startOffset=0  endOffset=4523135  offlen=4523136
+now play a new source, filename = /home/superrh/music/故乡的原风景.mp3
+now file end
+strip before close
+File /home/superrh/music/故乡的原风景.mp3 read over    count = 802309  time : Wed Apr  3 15:17:04 2013
+
+Wed Apr  3 15:17:04 2013
+now play a new source
+elapseLeft=3773616.000000
+lastFile=故乡的原风景.mp3
+buf = 月亮门(Moon_gate).mp3
+Using Mp3 File: /home/superrh/music/月亮门(Moon_gate).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=255216
+fSize=4083456 startOffset=0  endOffset=4083455  offlen=4083456
+now play a new source, filename = /home/superrh/music/月亮门(Moon_gate).mp3
+now file end
+strip before close
+File /home/superrh/music/月亮门(Moon_gate).mp3 read over    count = 814273  time : Wed Apr  3 15:21:20 2013
+
+Wed Apr  3 15:21:20 2013
+now play a new source
+elapseLeft=3518424.000000
+lastFile=月亮门(Moon_gate).mp3
+buf = 杨柳.mp3
+Using Mp3 File: /home/superrh/music/杨柳.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=277968
+fSize=4447488 startOffset=0  endOffset=4447487  offlen=4447488
+now play a new source, filename = /home/superrh/music/杨柳.mp3
+now file end
+strip before close
+File /home/superrh/music/杨柳.mp3 read over    count = 827303  time : Wed Apr  3 15:25:57 2013
+
+Wed Apr  3 15:25:57 2013
+now play a new source
+elapseLeft=3240480.000000
+lastFile=杨柳.mp3
+buf = 海浪.mp3
+Using Mp3 File: /home/superrh/music/海浪.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=317592
+fSize=5081472 startOffset=0  endOffset=5081471  offlen=5081472
+now play a new source, filename = /home/superrh/music/海浪.mp3
+now file end
+strip before close
+File /home/superrh/music/海浪.mp3 read over    count = 842190  time : Wed Apr  3 15:31:15 2013
+
+Wed Apr  3 15:31:15 2013
+now play a new source
+elapseLeft=2922912.000000
+lastFile=海浪.mp3
+buf = 爱的罗曼史.mp3
+Using Mp3 File: /home/superrh/music/爱的罗曼史.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=194928
+fSize=3118848 startOffset=0  endOffset=3118847  offlen=3118848
+now play a new source, filename = /home/superrh/music/爱的罗曼史.mp3
+now file end
+strip before close
+File /home/superrh/music/爱的罗曼史.mp3 read over    count = 851328  time : Wed Apr  3 15:34:30 2013
+
+Wed Apr  3 15:34:30 2013
+now play a new source
+elapseLeft=2728008.000000
+lastFile=爱的罗曼史.mp3
+buf = 王都炎上.mp3
+Using Mp3 File: /home/superrh/music/王都炎上.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=163152
+fSize=2610432 startOffset=0  endOffset=2610431  offlen=2610432
+now play a new source, filename = /home/superrh/music/王都炎上.mp3
+now file end
+strip before close
+File /home/superrh/music/王都炎上.mp3 read over    count = 858976  time : Wed Apr  3 15:37:13 2013
+
+Wed Apr  3 15:37:13 2013
+now play a new source
+elapseLeft=2564880.000000
+lastFile=王都炎上.mp3
+buf = 理查德克莱德曼_钢琴曲_毕业生.mp3
+Using Mp3 File: /home/superrh/music/理查德克莱德曼_钢琴曲_毕业生.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=208080
+fSize=3329280 startOffset=0  endOffset=3329279  offlen=3329280
+now play a new source, filename = /home/superrh/music/理查德克莱德曼_钢琴曲_毕业生.mp3
+now file end
+strip before close
+File /home/superrh/music/理查德克莱德曼_钢琴曲_毕业生.mp3 read over    count = 868730  time : Wed Apr  3 15:40:41 2013
+
+Wed Apr  3 15:40:41 2013
+now play a new source
+elapseLeft=2356824.000000
+lastFile=理查德克莱德曼_钢琴曲_毕业生.mp3
+buf = 神秘园-Windancer.mp3
+Using Mp3 File: /home/superrh/music/神秘园-Windancer.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=202728
+fSize=3243648 startOffset=0  endOffset=3243647  offlen=3243648
+now play a new source, filename = /home/superrh/music/神秘园-Windancer.mp3
+now file end
+strip before close
+File /home/superrh/music/神秘园-Windancer.mp3 read over    count = 878233  time : Wed Apr  3 15:44:04 2013
+
+Wed Apr  3 15:44:04 2013
+now play a new source
+elapseLeft=2154120.000000
+lastFile=神秘园-Windancer.mp3
+buf = 纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+Using Mp3 File: /home/superrh/music/纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=195312
+fSize=3124992 startOffset=0  endOffset=3124991  offlen=3124992
+now play a new source, filename = /home/superrh/music/纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+now file end
+strip before close
+File /home/superrh/music/纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3 read over    count = 887389  time : Wed Apr  3 15:47:19 2013
+
+Wed Apr  3 15:47:19 2013
+now play a new source
+elapseLeft=1958832.000000
+lastFile=纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+buf = 纯音乐-柔板(Adagio).mp3
+Using Mp3 File: /home/superrh/music/纯音乐-柔板(Adagio).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=175680
+fSize=2810880 startOffset=0  endOffset=2810879  offlen=2810880
+now play a new source, filename = /home/superrh/music/纯音乐-柔板(Adagio).mp3
+now file end
+strip before close
+File /home/superrh/music/纯音乐-柔板(Adagio).mp3 read over    count = 895624  time : Wed Apr  3 15:50:15 2013
+
+Wed Apr  3 15:50:15 2013
+now play a new source
+elapseLeft=1783176.000000
+lastFile=纯音乐-柔板(Adagio).mp3
+buf = 阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+Using Mp3 File: /home/superrh/music/阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=264288
+fSize=4228608 startOffset=0  endOffset=4228607  offlen=4228608
+now play a new source, filename = /home/superrh/music/阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+now file end
+strip before close
+File /home/superrh/music/阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3 read over    count = 908013  time : Wed Apr  3 15:54:39 2013
+
+Wed Apr  3 15:54:39 2013
+now play a new source
+elapseLeft=1518912.000000
+lastFile=阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+buf = 雪的梦幻(Snowdreams).mp3
+Using Mp3 File: /home/superrh/music/雪的梦幻(Snowdreams).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=293472
+fSize=4695552 startOffset=0  endOffset=4695551  offlen=4695552
+now play a new source, filename = /home/superrh/music/雪的梦幻(Snowdreams).mp3
+now file end
+strip before close
+File /home/superrh/music/雪的梦幻(Snowdreams).mp3 read over    count = 921770  time : Wed Apr  3 15:59:33 2013
+
+Wed Apr  3 15:59:33 2013
+now play a new source
+elapseLeft=1225464.000000
+lastFile=雪的梦幻(Snowdreams).mp3
+another list circle
+Using Mp3 File: /home/superrh/music/15-AudioTrack.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=109704
+fSize=1755264 startOffset=0  endOffset=1755263  offlen=1755264
+now play a new source, filename = /home/superrh/music/15-AudioTrack.mp3
+now file end
+strip before close
+File /home/superrh/music/15-AudioTrack.mp3 read over    count = 926913  time : Wed Apr  3 16:01:22 2013
+
+Wed Apr  3 16:01:22 2013
+now play a new source
+elapseLeft=1115784.000000
+lastFile=15-AudioTrack.mp3
+buf = 52-AudioTrack.mp3
+Using Mp3 File: /home/superrh/music/52-AudioTrack.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=104616
+fSize=1673856 startOffset=0  endOffset=1673855  offlen=1673856
+now play a new source, filename = /home/superrh/music/52-AudioTrack.mp3
+now file end
+strip before close
+File /home/superrh/music/52-AudioTrack.mp3 read over    count = 931817  time : Wed Apr  3 16:03:07 2013
+
+Wed Apr  3 16:03:07 2013
+now play a new source
+elapseLeft=1011192.000000
+lastFile=52-AudioTrack.mp3
+buf = Childhood_Memory.mp3
+Using Mp3 File: /home/superrh/music/Childhood_Memory.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=195888
+fSize=3134208 startOffset=0  endOffset=3134207  offlen=3134208
+now play a new source, filename = /home/superrh/music/Childhood_Memory.mp3
+now file end
+strip before close
+File /home/superrh/music/Childhood_Memory.mp3 read over    count = 941000  time : Wed Apr  3 16:06:23 2013
+
+Wed Apr  3 16:06:23 2013
+now play a new source
+elapseLeft=815328.000000
+lastFile=Childhood_Memory.mp3
+buf = Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+Using Mp3 File: /home/superrh/music/Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=151536
+fSize=2424576 startOffset=0  endOffset=2424575  offlen=2424576
+now play a new source, filename = /home/superrh/music/Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+now file end
+strip before close
+File /home/superrh/music/Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3 read over    count = 948104  time : Wed Apr  3 16:08:54 2013
+
+Wed Apr  3 16:08:54 2013
+now play a new source
+elapseLeft=663816.000000
+lastFile=Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+buf = GERRN_SHANNEL.mp3
+Using Mp3 File: /home/superrh/music/GERRN_SHANNEL.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=227424
+fSize=3638784 startOffset=0  endOffset=3638783  offlen=3638784
+now play a new source, filename = /home/superrh/music/GERRN_SHANNEL.mp3
+now file end
+strip before close
+File /home/superrh/music/GERRN_SHANNEL.mp3 read over    count = 958765  time : Wed Apr  3 16:12:42 2013
+
+Wed Apr  3 16:12:42 2013
+now play a new source
+elapseLeft=436416.000000
+lastFile=GERRN_SHANNEL.mp3
+buf = Liekkas.mp3
+Using Mp3 File: /home/superrh/music/Liekkas.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=203904
+fSize=3262464 startOffset=0  endOffset=3262463  offlen=3262464
+now play a new source, filename = /home/superrh/music/Liekkas.mp3
+now file end
+strip before close
+File /home/superrh/music/Liekkas.mp3 read over    count = 968323  time : Wed Apr  3 16:16:05 2013
+
+Wed Apr  3 16:16:05 2013
+now play a new source
+elapseLeft=232536.000000
+lastFile=Liekkas.mp3
+buf = Moscow_Never_Sleeps_freestyle_remix.mp3
+Using Mp3 File: /home/superrh/music/Moscow_Never_Sleeps_freestyle_remix.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=151536
+fSize=2424576 startOffset=0  endOffset=2424575  offlen=2424576
+now play a new source, filename = /home/superrh/music/Moscow_Never_Sleeps_freestyle_remix.mp3
+now file end
+strip before close
+File /home/superrh/music/Moscow_Never_Sleeps_freestyle_remix.mp3 read over    count = 975427  time : Wed Apr  3 16:18:37 2013
+
+Wed Apr  3 16:18:37 2013
+now play a new source
+elapseLeft=81024.000000
+lastFile=Moscow_Never_Sleeps_freestyle_remix.mp3
+buf = River_Flows_In_You(钢琴改编版).mp3
+Using Mp3 File: /home/superrh/music/River_Flows_In_You(钢琴改编版).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=81025
+fSize=2658048 startOffset=0  endOffset=1298425  offlen=1298426
+now play a new source, filename = /home/superrh/music/River_Flows_In_You(钢琴改编版).mp3
+now file end
+strip before close
+File /home/superrh/music/River_Flows_In_You(钢琴改编版).mp3 read over    count = 979232  time : Wed Apr  3 16:19:58 2013
+
+Wed Apr  3 16:19:58 2013
+now play a new source
+now play a new program
+Wed Apr  3 16:19:58 CST 2013
+strftime=16:20:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '16:20:01' AND EndTime > '16:20:01') OR ((StartTime > EndTime) AND ((StartTime <= '16:20:01') OR (EndTime > '16:20:01'))))
+elapseLeft=1199880.000000
+lastFile=River_Flows_In_You(钢琴改编版).mp3
+buf = Sundial_Dreams.mp3
+Using Mp3 File: /home/superrh/music/Sundial_Dreams.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=286464
+fSize=4583424 startOffset=0  endOffset=4583423  offlen=4583424
+now play a new source, filename = /home/superrh/music/Sundial_Dreams.mp3
+now file end
+strip before close
+File /home/superrh/music/Sundial_Dreams.mp3 read over    count = 992660  time : Wed Apr  3 16:24:45 2013
+
+Wed Apr  3 16:24:45 2013
+now play a new source
+elapseLeft=913440.000000
+lastFile=Sundial_Dreams.mp3
+buf = The_Truth_That_You_Leave.mp3
+Using Mp3 File: /home/superrh/music/The_Truth_That_You_Leave.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=223512
+fSize=3576192 startOffset=0  endOffset=3576191  offlen=3576192
+now play a new source, filename = /home/superrh/music/The_Truth_That_You_Leave.mp3
+now file end
+strip before close
+File /home/superrh/music/The_Truth_That_You_Leave.mp3 read over    count = 1003137  time : Wed Apr  3 16:28:28 2013
+
+Wed Apr  3 16:28:28 2013
+now play a new source
+elapseLeft=689952.000000
+lastFile=The_Truth_That_You_Leave.mp3
+buf = Variations_on_the_Kanon.mp3
+Using Mp3 File: /home/superrh/music/Variations_on_the_Kanon.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=323544
+fSize=5176704 startOffset=0  endOffset=5176703  offlen=5176704
+now play a new source, filename = /home/superrh/music/Variations_on_the_Kanon.mp3
+now file end
+strip before close
+File /home/superrh/music/Variations_on_the_Kanon.mp3 read over    count = 1018303  time : Wed Apr  3 16:33:52 2013
+
+Wed Apr  3 16:33:52 2013
+now play a new source
+elapseLeft=366432.000000
+lastFile=Variations_on_the_Kanon.mp3
+buf = We_Are_Electric.mp3
+Using Mp3 File: /home/superrh/music/We_Are_Electric.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=211488
+fSize=3383808 startOffset=0  endOffset=3383807  offlen=3383808
+now play a new source, filename = /home/superrh/music/We_Are_Electric.mp3
+now file end
+strip before close
+File /home/superrh/music/We_Are_Electric.mp3 read over    count = 1028217  time : Wed Apr  3 16:37:23 2013
+
+Wed Apr  3 16:37:23 2013
+now play a new source
+elapseLeft=154968.000000
+lastFile=We_Are_Electric.mp3
+buf = Yiruma(李闰珉)-Kiss_The_Rain.mp3
+Using Mp3 File: /home/superrh/music/Yiruma(李闰珉)-Kiss_The_Rain.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=154969
+fSize=4175232 startOffset=0  endOffset=2482974  offlen=2482975
+now play a new source, filename = /home/superrh/music/Yiruma(李闰珉)-Kiss_The_Rain.mp3
+now file end
+strip before close
+File /home/superrh/music/Yiruma(李闰珉)-Kiss_The_Rain.mp3 read over    count = 1035493  time : Wed Apr  3 16:39:58 2013
+
+Wed Apr  3 16:39:58 2013
+now play a new source
+now play a new program
+Wed Apr  3 16:39:58 CST 2013
+strftime=16:40:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '16:40:01' AND EndTime > '16:40:01') OR ((StartTime > EndTime) AND ((StartTime <= '16:40:01') OR (EndTime > '16:40:01'))))
+elapseLeft=1199784.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 1043238  time : Wed Apr  3 16:42:43 2013
+
+Wed Apr  3 16:42:43 2013
+now play a new source
+elapseLeft=1034592.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 1050983  time : Wed Apr  3 16:45:29 2013
+
+Wed Apr  3 16:45:29 2013
+now play a new source
+elapseLeft=869400.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 1058728  time : Wed Apr  3 16:48:14 2013
+
+Wed Apr  3 16:48:14 2013
+now play a new source
+elapseLeft=704208.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 1066473  time : Wed Apr  3 16:50:59 2013
+
+Wed Apr  3 16:50:59 2013
+now play a new source
+elapseLeft=539016.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 1074218  time : Wed Apr  3 16:53:44 2013
+
+Wed Apr  3 16:53:44 2013
+now play a new source
+elapseLeft=373824.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 1081963  time : Wed Apr  3 16:56:29 2013
+
+Wed Apr  3 16:56:29 2013
+now play a new source
+elapseLeft=208632.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 1089708  time : Wed Apr  3 16:59:15 2013
+
+Wed Apr  3 16:59:15 2013
+now play a new source
+elapseLeft=43440.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=43441
+fSize=2643456 startOffset=0  endOffset=696237  offlen=696238
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 1091749  time : Wed Apr  3 16:59:58 2013
+
+Wed Apr  3 16:59:58 2013
+now play a new source
+now play a new program
+Wed Apr  3 16:59:58 CST 2013
+strftime=17:00:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '17:00:01' AND EndTime > '17:00:01') OR ((StartTime > EndTime) AND ((StartTime <= '17:00:01') OR (EndTime > '17:00:01'))))
+elapseLeft=25199928.000000
+lastFile=201207071200.s48
+buf = 201207081200.s48
+Using S48 File: /home/superrh/old/201207081200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207081200.s48
+now file end
+strip before close
+File /home/superrh/old/201207081200.s48 read over    count = 1260499  time : Wed Apr  3 17:59:58 2013
+
+Wed Apr  3 17:59:58 2013
+now play a new source
+elapseLeft=21599952.000000
+lastFile=201207081200.s48
+buf = 201207091200.s48
+Using S48 File: /home/superrh/old/201207091200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207091200.s48
+now file end
+strip before close
+File /home/superrh/old/201207091200.s48 read over    count = 1429297  time : Wed Apr  3 18:59:59 2013
+
+Wed Apr  3 18:59:59 2013
+now play a new source
+elapseLeft=17998968.000000
+lastFile=201207091200.s48
+buf = 201207101200.s48
+Using S48 File: /home/superrh/old/201207101200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207101200.s48
+now file end
+strip before close
+File /home/superrh/old/201207101200.s48 read over    count = 1598095  time : Wed Apr  3 20:00:00 2013
+
+Wed Apr  3 20:00:00 2013
+now play a new source
+elapseLeft=14397984.000000
+lastFile=201207101200.s48
+buf = 201207111200.s48
+Using S48 File: /home/superrh/old/201207111200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207111200.s48
+now file end
+strip before close
+File /home/superrh/old/201207111200.s48 read over    count = 1766893  time : Wed Apr  3 21:00:01 2013
+
+Wed Apr  3 21:00:01 2013
+now play a new source
+elapseLeft=10797000.000000
+lastFile=201207111200.s48
+buf = 201207121200.s48
+Using S48 File: /home/superrh/old/201207121200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207121200.s48
+now file end
+strip before close
+File /home/superrh/old/201207121200.s48 read over    count = 1935643  time : Wed Apr  3 22:00:01 2013
+
+Wed Apr  3 22:00:01 2013
+now play a new source
+elapseLeft=7197024.000000
+lastFile=201207121200.s48
+buf = 201207131200.s48
+Using S48 File: /home/superrh/old/201207131200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207131200.s48
+now file end
+strip before close
+File /home/superrh/old/201207131200.s48 read over    count = 2104441  time : Wed Apr  3 23:00:02 2013
+
+Wed Apr  3 23:00:02 2013
+now play a new source
+elapseLeft=3596040.000000
+lastFile=201207131200.s48
+buf = 201207141200.s48
+Using S48 File: /home/superrh/old/201207141200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3596041
+fSize=115232256 startOffset=0  endOffset=115146875  offlen=115146876
+now play a new source, filename = /home/superrh/old/201207141200.s48
+now file end
+strip before close
+File /home/superrh/old/201207141200.s48 read over    count = 2273114  time : Thu Apr  4 00:00:00 2013
+
+Thu Apr  4 00:00:00 2013
+now play a new source
+now play a new program
+Thu Apr  4 00:00:00 CST 2013
+strftime=00:00:03
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '00:00:03' AND EndTime > '00:00:03') OR ((StartTime > EndTime) AND ((StartTime <= '00:00:03') OR (EndTime > '00:00:03'))))
+elapseLeft=28797720.000000
+lastFile=201207141200.s48
+buf = 201207151200.s48
+Using S48 File: /home/superrh/old/201207151200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207151200.s48
+now file end
+strip before close
+File /home/superrh/old/201207151200.s48 read over    count = 2441912  time : Thu Apr  4 01:00:01 2013
+
+Thu Apr  4 01:00:01 2013
+now play a new source
+elapseLeft=25196736.000000
+lastFile=201207151200.s48
+buf = 201207161200.s48
+Using S48 File: /home/superrh/old/201207161200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207161200.s48
+now file end
+strip before close
+File /home/superrh/old/201207161200.s48 read over    count = 2610710  time : Thu Apr  4 02:00:02 2013
+
+Thu Apr  4 02:00:02 2013
+now play a new source
+elapseLeft=21595752.000000
+lastFile=201207161200.s48
+buf = 201207171200.s48
+Using S48 File: /home/superrh/old/201207171200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207171200.s48
+now file end
+strip before close
+File /home/superrh/old/201207171200.s48 read over    count = 2779508  time : Thu Apr  4 03:00:03 2013
+
+Thu Apr  4 03:00:03 2013
+now play a new source
+elapseLeft=17994768.000000
+lastFile=201207171200.s48
+buf = 201207181200.s48
+Using S48 File: /home/superrh/old/201207181200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207181200.s48
+now file end
+strip before close
+File /home/superrh/old/201207181200.s48 read over    count = 2948258  time : Thu Apr  4 04:00:03 2013
+
+Thu Apr  4 04:00:03 2013
+now play a new source
+elapseLeft=14394792.000000
+lastFile=201207181200.s48
+buf = 201207191200.s48
+Using S48 File: /home/superrh/old/201207191200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207191200.s48
+now file end
+strip before close
+File /home/superrh/old/201207191200.s48 read over    count = 3117008  time : Thu Apr  4 05:00:03 2013
+
+Thu Apr  4 05:00:03 2013
+now play a new source
+elapseLeft=10794816.000000
+lastFile=201207191200.s48
+buf = 201207201200.s48
+Using S48 File: /home/superrh/old/201207201200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207201200.s48
+now file end
+strip before close
+File /home/superrh/old/201207201200.s48 read over    count = 3285758  time : Thu Apr  4 06:00:03 2013
+
+Thu Apr  4 06:00:03 2013
+now play a new source
+elapseLeft=7194840.000000
+lastFile=201207201200.s48
+buf = 201207211200.s48
+Using S48 File: /home/superrh/old/201207211200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207211200.s48
+now file end
+strip before close
+File /home/superrh/old/201207211200.s48 read over    count = 3454508  time : Thu Apr  4 07:00:03 2013
+
+Thu Apr  4 07:00:03 2013
+now play a new source
+elapseLeft=3594864.000000
+lastFile=201207211200.s48
+buf = 201207221200.s48
+Using S48 File: /home/superrh/old/201207221200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3594865
+fSize=115200000 startOffset=0  endOffset=115108826  offlen=115108827
+now play a new source, filename = /home/superrh/old/201207221200.s48
+now file end
+strip before close
+File /home/superrh/old/201207221200.s48 read over    count = 3623126  time : Thu Apr  4 08:00:00 2013
+
+Thu Apr  4 08:00:00 2013
+now play a new source
+now play a new program
+Thu Apr  4 08:00:00 CST 2013
+strftime=08:00:03
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '08:00:03' AND EndTime > '08:00:03') OR ((StartTime > EndTime) AND ((StartTime <= '08:00:03') OR (EndTime > '08:00:03'))))
+elapseLeft=8997720.000000
+lastFile=201207221200.s48
+buf = 201207231200.s48
+Using S48 File: /home/superrh/old/201207231200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207231200.s48
+now file end
+strip before close
+File /home/superrh/old/201207231200.s48 read over    count = 3791876  time : Thu Apr  4 09:00:00 2013
+
+Thu Apr  4 09:00:00 2013
+now play a new source
+elapseLeft=5397744.000000
+lastFile=201207231200.s48
+buf = 201207241200.s48
+Using S48 File: /home/superrh/old/201207241200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207241200.s48
+now file end
+strip before close
+File /home/superrh/old/201207241200.s48 read over    count = 3960626  time : Thu Apr  4 10:00:00 2013
+
+Thu Apr  4 10:00:00 2013
+now play a new source
+elapseLeft=1797768.000000
+lastFile=201207241200.s48
+buf = 201207251200.s48
+Using S48 File: /home/superrh/old/201207251200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=1797769
+fSize=115232256 startOffset=0  endOffset=57565276  offlen=57565277
+now play a new source, filename = /home/superrh/old/201207251200.s48
+now file end
+strip before close
+File /home/superrh/old/201207251200.s48 read over    count = 4044951  time : Thu Apr  4 10:29:59 2013
+
+Thu Apr  4 10:29:59 2013
+now play a new source
+now play a new program
+Thu Apr  4 10:29:59 CST 2013
+strftime=10:30:02
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '10:30:02' AND EndTime > '10:30:02') OR ((StartTime > EndTime) AND ((StartTime <= '10:30:02') OR (EndTime > '10:30:02'))))
+elapseLeft=1798872.000000
+lastFile=Yiruma(李闰珉)-Kiss_The_Rain.mp3
+buf = Your_Smile.mp3
+Using Mp3 File: /home/superrh/music/Your_Smile.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=172560
+fSize=2760960 startOffset=0  endOffset=2760959  offlen=2760960
+now play a new source, filename = /home/superrh/music/Your_Smile.mp3
+now file end
+strip before close
+File /home/superrh/music/Your_Smile.mp3 read over    count = 4053040  time : Thu Apr  4 10:32:52 2013
+
+Thu Apr  4 10:32:52 2013
+now play a new source
+elapseLeft=1626336.000000
+lastFile=Your_Smile.mp3
+buf = breakin_it_down.mp3
+Using Mp3 File: /home/superrh/music/breakin_it_down.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=223008
+fSize=3568128 startOffset=0  endOffset=3568127  offlen=3568128
+now play a new source, filename = /home/superrh/music/breakin_it_down.mp3
+now file end
+strip before close
+File /home/superrh/music/breakin_it_down.mp3 read over    count = 4063494  time : Thu Apr  4 10:36:35 2013
+
+Thu Apr  4 10:36:35 2013
+now play a new source
+elapseLeft=1403352.000000
+lastFile=breakin_it_down.mp3
+buf = flying_steps_-_breakin_it_down_.mp3
+Using Mp3 File: /home/superrh/music/flying_steps_-_breakin_it_down_.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=223008
+fSize=3568128 startOffset=0  endOffset=3568127  offlen=3568128
+now play a new source, filename = /home/superrh/music/flying_steps_-_breakin_it_down_.mp3
+now file end
+strip before close
+File /home/superrh/music/flying_steps_-_breakin_it_down_.mp3 read over    count = 4073948  time : Thu Apr  4 10:40:18 2013
+
+Thu Apr  4 10:40:18 2013
+now play a new source
+elapseLeft=1180368.000000
+lastFile=flying_steps_-_breakin_it_down_.mp3
+buf = ydgqq05.mp3
+Using Mp3 File: /home/superrh/music/ydgqq05.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=127224
+fSize=2035584 startOffset=0  endOffset=2035583  offlen=2035584
+now play a new source, filename = /home/superrh/music/ydgqq05.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq05.mp3 read over    count = 4079912  time : Thu Apr  4 10:42:25 2013
+
+Thu Apr  4 10:42:25 2013
+now play a new source
+elapseLeft=1053168.000000
+lastFile=ydgqq05.mp3
+buf = ydgqq08.mp3
+Using Mp3 File: /home/superrh/music/ydgqq08.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=118680
+fSize=1898880 startOffset=0  endOffset=1898879  offlen=1898880
+now play a new source, filename = /home/superrh/music/ydgqq08.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq08.mp3 read over    count = 4085475  time : Thu Apr  4 10:44:23 2013
+
+Thu Apr  4 10:44:23 2013
+now play a new source
+elapseLeft=934512.000000
+lastFile=ydgqq08.mp3
+buf = ydgqq11.mp3
+Using Mp3 File: /home/superrh/music/ydgqq11.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=110112
+fSize=1761792 startOffset=0  endOffset=1761791  offlen=1761792
+now play a new source, filename = /home/superrh/music/ydgqq11.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq11.mp3 read over    count = 4090637  time : Thu Apr  4 10:46:14 2013
+
+Thu Apr  4 10:46:14 2013
+now play a new source
+elapseLeft=824424.000000
+lastFile=ydgqq11.mp3
+buf = ydgqq12.mp3
+Using Mp3 File: /home/superrh/music/ydgqq12.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=115320
+fSize=1845120 startOffset=0  endOffset=1845119  offlen=1845120
+now play a new source, filename = /home/superrh/music/ydgqq12.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq12.mp3 read over    count = 4096043  time : Thu Apr  4 10:48:09 2013
+
+Thu Apr  4 10:48:09 2013
+now play a new source
+elapseLeft=709128.000000
+lastFile=ydgqq12.mp3
+buf = ydgqq13.mp3
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 4103788  time : Thu Apr  4 10:50:54 2013
+
+Thu Apr  4 10:50:54 2013
+now play a new source
+elapseLeft=543936.000000
+lastFile=ydgqq13.mp3
+buf = ydgqq14.mp3
+Using Mp3 File: /home/superrh/music/ydgqq14.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=146160
+fSize=2338560 startOffset=0  endOffset=2338559  offlen=2338560
+now play a new source, filename = /home/superrh/music/ydgqq14.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq14.mp3 read over    count = 4110640  time : Thu Apr  4 10:53:20 2013
+
+Thu Apr  4 10:53:20 2013
+now play a new source
+elapseLeft=397800.000000
+lastFile=ydgqq14.mp3
+buf = ydgqq15.mp3
+Using Mp3 File: /home/superrh/music/ydgqq15.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=122808
+fSize=1964928 startOffset=0  endOffset=1964927  offlen=1964928
+now play a new source, filename = /home/superrh/music/ydgqq15.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq15.mp3 read over    count = 4116397  time : Thu Apr  4 10:55:23 2013
+
+Thu Apr  4 10:55:23 2013
+now play a new source
+elapseLeft=275016.000000
+lastFile=ydgqq15.mp3
+buf = ydgqq16.mp3
+Using Mp3 File: /home/superrh/music/ydgqq16.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=107232
+fSize=1715712 startOffset=0  endOffset=1715711  offlen=1715712
+now play a new source, filename = /home/superrh/music/ydgqq16.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq16.mp3 read over    count = 4121424  time : Thu Apr  4 10:57:10 2013
+
+Thu Apr  4 10:57:10 2013
+now play a new source
+elapseLeft=167808.000000
+lastFile=ydgqq16.mp3
+buf = ydgqq17.mp3
+Using Mp3 File: /home/superrh/music/ydgqq17.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=110112
+fSize=1761792 startOffset=0  endOffset=1761791  offlen=1761792
+now play a new source, filename = /home/superrh/music/ydgqq17.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq17.mp3 read over    count = 4126586  time : Thu Apr  4 10:59:00 2013
+
+Thu Apr  4 10:59:00 2013
+now play a new source
+elapseLeft=57720.000000
+lastFile=ydgqq17.mp3
+buf = ydgqq18.mp3
+Using Mp3 File: /home/superrh/music/ydgqq18.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=57721
+fSize=2897664 startOffset=0  endOffset=924966  offlen=924967
+now play a new source, filename = /home/superrh/music/ydgqq18.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq18.mp3 read over    count = 4129296  time : Thu Apr  4 10:59:58 2013
+
+Thu Apr  4 10:59:58 2013
+now play a new source
+now play a new program
+Thu Apr  4 10:59:58 CST 2013
+strftime=11:00:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '11:00:01' AND EndTime > '11:00:01') OR ((StartTime > EndTime) AND ((StartTime <= '11:00:01') OR (EndTime > '11:00:01'))))
+elapseLeft=7199928.000000
+lastFile=201207251200.s48
+buf = 201207261200.s48
+Using S48 File: /home/superrh/old/201207261200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207261200.s48
+now file end
+strip before close
+File /home/superrh/old/201207261200.s48 read over    count = 4298094  time : Thu Apr  4 11:59:59 2013
+
+Thu Apr  4 11:59:59 2013
+now play a new source
+elapseLeft=3598944.000000
+lastFile=201207261200.s48
+buf = 201207271200.s48
+Using S48 File: /home/superrh/old/201207271200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3598945
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207271200.s48
+now file end
+strip before close
+File /home/superrh/old/201207271200.s48 read over    count = 4466892  time : Thu Apr  4 13:00:00 2013
+
+Thu Apr  4 13:00:00 2013
+now play a new source
+now play a new program
+Thu Apr  4 13:00:00 CST 2013
+strftime=13:00:03
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '13:00:03' AND EndTime > '13:00:03') OR ((StartTime > EndTime) AND ((StartTime <= '13:00:03') OR (EndTime > '13:00:03'))))
+elapseLeft=7797960.000000
+lastFile=201207271200.s48
+buf = 201207281200.s48
+Using S48 File: /home/superrh/old/201207281200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207281200.s48
+now file end
+strip before close
+File /home/superrh/old/201207281200.s48 read over    count = 4635690  time : Thu Apr  4 14:00:01 2013
+
+Thu Apr  4 14:00:01 2013
+now play a new source
+elapseLeft=4196976.000000
+lastFile=201207281200.s48
+buf = 201207291200.s48
+Using S48 File: /home/superrh/old/201207291200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207291200.s48
+now file end
+strip before close
+File /home/superrh/old/201207291200.s48 read over    count = 4804440  time : Thu Apr  4 15:00:01 2013
+
+Thu Apr  4 15:00:01 2013
+now play a new source
+elapseLeft=597000.000000
+lastFile=201207291200.s48
+buf = 201207301200.s48
+Using S48 File: /home/superrh/old/201207301200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=597001
+fSize=115200000 startOffset=0  endOffset=19116755  offlen=19116756
+now play a new source, filename = /home/superrh/old/201207301200.s48
+now file end
+strip before close
+File /home/superrh/old/201207301200.s48 read over    count = 4832444  time : Thu Apr  4 15:09:58 2013
+
+Thu Apr  4 15:09:58 2013
+now play a new source
+now play a new program
+Thu Apr  4 15:09:58 CST 2013
+strftime=15:10:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '15:10:01' AND EndTime > '15:10:01') OR ((StartTime > EndTime) AND ((StartTime <= '15:10:01') OR (EndTime > '15:10:01'))))
+elapseLeft=4199616.000000
+lastFile=ydgqq18.mp3
+buf = ydgqq19.mp3
+Using Mp3 File: /home/superrh/music/ydgqq19.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=106800
+fSize=1708800 startOffset=0  endOffset=1708799  offlen=1708800
+now play a new source, filename = /home/superrh/music/ydgqq19.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq19.mp3 read over    count = 4837451  time : Thu Apr  4 15:11:45 2013
+
+Thu Apr  4 15:11:45 2013
+now play a new source
+elapseLeft=4092840.000000
+lastFile=ydgqq19.mp3
+buf = ydgqq20.mp3
+Using Mp3 File: /home/superrh/music/ydgqq20.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=133248
+fSize=2131968 startOffset=0  endOffset=2131967  offlen=2131968
+now play a new source, filename = /home/superrh/music/ydgqq20.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq20.mp3 read over    count = 4843697  time : Thu Apr  4 15:13:58 2013
+
+Thu Apr  4 15:13:58 2013
+now play a new source
+elapseLeft=3959616.000000
+lastFile=ydgqq20.mp3
+buf = ydgqq21.mp3
+Using Mp3 File: /home/superrh/music/ydgqq21.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=136944
+fSize=2191104 startOffset=0  endOffset=2191103  offlen=2191104
+now play a new source, filename = /home/superrh/music/ydgqq21.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq21.mp3 read over    count = 4850117  time : Thu Apr  4 15:16:15 2013
+
+Thu Apr  4 15:16:15 2013
+now play a new source
+elapseLeft=3822696.000000
+lastFile=ydgqq21.mp3
+buf = ydgqq22.mp3
+Using Mp3 File: /home/superrh/music/ydgqq22.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=102456
+fSize=1639296 startOffset=0  endOffset=1639295  offlen=1639296
+now play a new source, filename = /home/superrh/music/ydgqq22.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq22.mp3 read over    count = 4854920  time : Thu Apr  4 15:17:58 2013
+
+Thu Apr  4 15:17:58 2013
+now play a new source
+elapseLeft=3720264.000000
+lastFile=ydgqq22.mp3
+buf = ydgqq23.mp3
+Using Mp3 File: /home/superrh/music/ydgqq23.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=102120
+fSize=1633920 startOffset=0  endOffset=1633919  offlen=1633920
+now play a new source, filename = /home/superrh/music/ydgqq23.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq23.mp3 read over    count = 4859707  time : Thu Apr  4 15:19:40 2013
+
+Thu Apr  4 15:19:40 2013
+now play a new source
+elapseLeft=3618168.000000
+lastFile=ydgqq23.mp3
+buf = ydgqq24.mp3
+Using Mp3 File: /home/superrh/music/ydgqq24.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=108096
+fSize=1729536 startOffset=0  endOffset=1729535  offlen=1729536
+now play a new source, filename = /home/superrh/music/ydgqq24.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq24.mp3 read over    count = 4864774  time : Thu Apr  4 15:21:28 2013
+
+Thu Apr  4 15:21:28 2013
+now play a new source
+elapseLeft=3510096.000000
+lastFile=ydgqq24.mp3
+buf = ydgqq25.mp3
+Using Mp3 File: /home/superrh/music/ydgqq25.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=133032
+fSize=2128512 startOffset=0  endOffset=2128511  offlen=2128512
+now play a new source, filename = /home/superrh/music/ydgqq25.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq25.mp3 read over    count = 4871010  time : Thu Apr  4 15:23:41 2013
+
+Thu Apr  4 15:23:41 2013
+now play a new source
+elapseLeft=3377088.000000
+lastFile=ydgqq25.mp3
+buf = ydgqq26.mp3
+Using Mp3 File: /home/superrh/music/ydgqq26.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=88104
+fSize=1409664 startOffset=0  endOffset=1409663  offlen=1409664
+now play a new source, filename = /home/superrh/music/ydgqq26.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq26.mp3 read over    count = 4875140  time : Thu Apr  4 15:25:09 2013
+
+Thu Apr  4 15:25:09 2013
+now play a new source
+elapseLeft=3289008.000000
+lastFile=ydgqq26.mp3
+buf = ydgqq27.mp3
+Using Mp3 File: /home/superrh/music/ydgqq27.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=123456
+fSize=1975296 startOffset=0  endOffset=1975295  offlen=1975296
+now play a new source, filename = /home/superrh/music/ydgqq27.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq27.mp3 read over    count = 4880927  time : Thu Apr  4 15:27:12 2013
+
+Thu Apr  4 15:27:12 2013
+now play a new source
+elapseLeft=3165576.000000
+lastFile=ydgqq27.mp3
+buf = ydgqq28.mp3
+Using Mp3 File: /home/superrh/music/ydgqq28.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=122304
+fSize=1956864 startOffset=0  endOffset=1956863  offlen=1956864
+now play a new source, filename = /home/superrh/music/ydgqq28.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq28.mp3 read over    count = 4886660  time : Thu Apr  4 15:29:15 2013
+
+Thu Apr  4 15:29:15 2013
+now play a new source
+elapseLeft=3043296.000000
+lastFile=ydgqq28.mp3
+buf = ydgqq29.mp3
+Using Mp3 File: /home/superrh/music/ydgqq29.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=100992
+fSize=1615872 startOffset=0  endOffset=1615871  offlen=1615872
+now play a new source, filename = /home/superrh/music/ydgqq29.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq29.mp3 read over    count = 4891394  time : Thu Apr  4 15:30:56 2013
+
+Thu Apr  4 15:30:56 2013
+now play a new source
+elapseLeft=2942328.000000
+lastFile=ydgqq29.mp3
+buf = ydgqq30.mp3
+Using Mp3 File: /home/superrh/music/ydgqq30.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=120096
+fSize=1921536 startOffset=0  endOffset=1921535  offlen=1921536
+now play a new source, filename = /home/superrh/music/ydgqq30.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq30.mp3 read over    count = 4897024  time : Thu Apr  4 15:32:56 2013
+
+Thu Apr  4 15:32:56 2013
+now play a new source
+elapseLeft=2822256.000000
+lastFile=ydgqq30.mp3
+buf = ydgqq31.mp3
+Using Mp3 File: /home/superrh/music/ydgqq31.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=119208
+fSize=1907328 startOffset=0  endOffset=1907327  offlen=1907328
+now play a new source, filename = /home/superrh/music/ydgqq31.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq31.mp3 read over    count = 4902612  time : Thu Apr  4 15:34:55 2013
+
+Thu Apr  4 15:34:55 2013
+now play a new source
+elapseLeft=2703072.000000
+lastFile=ydgqq31.mp3
+buf = 亡灵.mp3
+Using Mp3 File: /home/superrh/music/亡灵.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=246312
+fSize=3940992 startOffset=0  endOffset=3940991  offlen=3940992
+now play a new source, filename = /home/superrh/music/亡灵.mp3
+now file end
+strip before close
+File /home/superrh/music/亡灵.mp3 read over    count = 4914158  time : Thu Apr  4 15:39:01 2013
+
+Thu Apr  4 15:39:01 2013
+now play a new source
+elapseLeft=2456784.000000
+lastFile=亡灵.mp3
+buf = 伤心的爱(HEARTBREAK_LOVE).mp3
+Using Mp3 File: /home/superrh/music/伤心的爱(HEARTBREAK_LOVE).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=237792
+fSize=3804672 startOffset=0  endOffset=3804671  offlen=3804672
+now play a new source, filename = /home/superrh/music/伤心的爱(HEARTBREAK_LOVE).mp3
+now file end
+strip before close
+File /home/superrh/music/伤心的爱(HEARTBREAK_LOVE).mp3 read over    count = 4925305  time : Thu Apr  4 15:42:59 2013
+
+Thu Apr  4 15:42:59 2013
+now play a new source
+elapseLeft=2219016.000000
+lastFile=伤心的爱(HEARTBREAK_LOVE).mp3
+buf = 出埃及记.mp3
+Using Mp3 File: /home/superrh/music/出埃及记.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=173016
+fSize=2768256 startOffset=0  endOffset=2768255  offlen=2768256
+now play a new source, filename = /home/superrh/music/出埃及记.mp3
+now file end
+strip before close
+File /home/superrh/music/出埃及记.mp3 read over    count = 4933415  time : Thu Apr  4 15:45:52 2013
+
+Thu Apr  4 15:45:52 2013
+now play a new source
+elapseLeft=2046024.000000
+lastFile=出埃及记.mp3
+buf = 吉田洁-MATSURI.mp3
+Using Mp3 File: /home/superrh/music/吉田洁-MATSURI.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=280776
+fSize=4492416 startOffset=0  endOffset=4492415  offlen=4492416
+now play a new source, filename = /home/superrh/music/吉田洁-MATSURI.mp3
+now file end
+strip before close
+File /home/superrh/music/吉田洁-MATSURI.mp3 read over    count = 4946577  time : Thu Apr  4 15:50:33 2013
+
+Thu Apr  4 15:50:33 2013
+now play a new source
+elapseLeft=1765272.000000
+lastFile=吉田洁-MATSURI.mp3
+buf = 吉田洁-TVエンディングテーマ.mp3
+Using Mp3 File: /home/superrh/music/吉田洁-TVエンディングテーマ.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=192984
+fSize=3087744 startOffset=0  endOffset=3087743  offlen=3087744
+now play a new source, filename = /home/superrh/music/吉田洁-TVエンディングテーマ.mp3
+now file end
+strip before close
+File /home/superrh/music/吉田洁-TVエンディングテーマ.mp3 read over    count = 4955623  time : Thu Apr  4 15:53:46 2013
+
+Thu Apr  4 15:53:46 2013
+now play a new source
+elapseLeft=1572312.000000
+lastFile=吉田洁-TVエンディングテーマ.mp3
+buf = 吉田洁-旅立ち.mp3
+Using Mp3 File: /home/superrh/music/吉田洁-旅立ち.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=206352
+fSize=3301632 startOffset=0  endOffset=3301631  offlen=3301632
+now play a new source, filename = /home/superrh/music/吉田洁-旅立ち.mp3
+now file end
+strip before close
+File /home/superrh/music/吉田洁-旅立ち.mp3 read over    count = 4965296  time : Thu Apr  4 15:57:12 2013
+
+Thu Apr  4 15:57:12 2013
+now play a new source
+elapseLeft=1365984.000000
+lastFile=吉田洁-旅立ち.mp3
+buf = 吉田洁-望乡.mp3
+Using Mp3 File: /home/superrh/music/吉田洁-望乡.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=125856
+fSize=2013696 startOffset=0  endOffset=2013695  offlen=2013696
+now play a new source, filename = /home/superrh/music/吉田洁-望乡.mp3
+now file end
+strip before close
+File /home/superrh/music/吉田洁-望乡.mp3 read over    count = 4971196  time : Thu Apr  4 15:59:18 2013
+
+Thu Apr  4 15:59:18 2013
+now play a new source
+elapseLeft=1240152.000000
+lastFile=吉田洁-望乡.mp3
+buf = 土耳其进行曲（莫扎特）.mp3
+Using Mp3 File: /home/superrh/music/土耳其进行曲（莫扎特）.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=200976
+fSize=3215616 startOffset=0  endOffset=3215615  offlen=3215616
+now play a new source, filename = /home/superrh/music/土耳其进行曲（莫扎特）.mp3
+now file end
+strip before close
+File /home/superrh/music/土耳其进行曲（莫扎特）.mp3 read over    count = 4980617  time : Thu Apr  4 16:02:39 2013
+
+Thu Apr  4 16:02:39 2013
+now play a new source
+elapseLeft=1039200.000000
+lastFile=土耳其进行曲（莫扎特）.mp3
+buf = 天空之城.mp3
+Using Mp3 File: /home/superrh/music/天空之城.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=154416
+fSize=2470656 startOffset=0  endOffset=2470655  offlen=2470656
+now play a new source, filename = /home/superrh/music/天空之城.mp3
+now file end
+strip before close
+File /home/superrh/music/天空之城.mp3 read over    count = 4987856  time : Thu Apr  4 16:05:13 2013
+
+Thu Apr  4 16:05:13 2013
+now play a new source
+elapseLeft=884808.000000
+lastFile=天空之城.mp3
+buf = 宋家王朝(THE_SOONG_SISTER).mp3
+Using Mp3 File: /home/superrh/music/宋家王朝(THE_SOONG_SISTER).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=232752
+fSize=3724032 startOffset=0  endOffset=3724031  offlen=3724032
+now play a new source, filename = /home/superrh/music/宋家王朝(THE_SOONG_SISTER).mp3
+now file end
+strip before close
+File /home/superrh/music/宋家王朝(THE_SOONG_SISTER).mp3 read over    count = 4998767  time : Thu Apr  4 16:09:06 2013
+
+Thu Apr  4 16:09:06 2013
+now play a new source
+elapseLeft=652080.000000
+lastFile=宋家王朝(THE_SOONG_SISTER).mp3
+buf = 宗次郎-幼き瞳～.mp3
+Using Mp3 File: /home/superrh/music/宗次郎-幼き瞳～.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=275160
+fSize=4402560 startOffset=0  endOffset=4402559  offlen=4402560
+now play a new source, filename = /home/superrh/music/宗次郎-幼き瞳～.mp3
+now file end
+strip before close
+File /home/superrh/music/宗次郎-幼き瞳～.mp3 read over    count = 5011665  time : Thu Apr  4 16:13:41 2013
+
+Thu Apr  4 16:13:41 2013
+now play a new source
+elapseLeft=376944.000000
+lastFile=宗次郎-幼き瞳～.mp3
+buf = 尽情哭泣_《阿育王》插曲.mp3
+Using Mp3 File: /home/superrh/music/尽情哭泣_《阿育王》插曲.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=242064
+fSize=3873024 startOffset=0  endOffset=3873023  offlen=3873024
+now play a new source, filename = /home/superrh/music/尽情哭泣_《阿育王》插曲.mp3
+now file end
+strip before close
+File /home/superrh/music/尽情哭泣_《阿育王》插曲.mp3 read over    count = 5023012  time : Thu Apr  4 16:17:43 2013
+
+Thu Apr  4 16:17:43 2013
+now play a new source
+elapseLeft=134904.000000
+lastFile=尽情哭泣_《阿育王》插曲.mp3
+buf = 忧伤还是快乐.mp3
+Using Mp3 File: /home/superrh/music/忧伤还是快乐.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=134905
+fSize=3683328 startOffset=0  endOffset=2161406  offlen=2161407
+now play a new source, filename = /home/superrh/music/忧伤还是快乐.mp3
+now file end
+strip before close
+File /home/superrh/music/忧伤还是快乐.mp3 read over    count = 5029345  time : Thu Apr  4 16:19:58 2013
+
+Thu Apr  4 16:19:58 2013
+now play a new source
+now play a new program
+Thu Apr  4 16:19:58 CST 2013
+strftime=16:20:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '16:20:01' AND EndTime > '16:20:01') OR ((StartTime > EndTime) AND ((StartTime <= '16:20:01') OR (EndTime > '16:20:01'))))
+elapseLeft=1199832.000000
+lastFile=忧伤还是快乐.mp3
+buf = 情书(LOVELETTER_TO_YOU).mp3
+Using Mp3 File: /home/superrh/music/情书(LOVELETTER_TO_YOU).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=190488
+fSize=3047808 startOffset=0  endOffset=3047807  offlen=3047808
+now play a new source, filename = /home/superrh/music/情书(LOVELETTER_TO_YOU).mp3
+now file end
+strip before close
+File /home/superrh/music/情书(LOVELETTER_TO_YOU).mp3 read over    count = 5038274  time : Thu Apr  4 16:23:09 2013
+
+Thu Apr  4 16:23:09 2013
+now play a new source
+elapseLeft=1009368.000000
+lastFile=情书(LOVELETTER_TO_YOU).mp3
+buf = 摇篮曲-舒伯特.mp3
+Using Mp3 File: /home/superrh/music/摇篮曲-舒伯特.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=143352
+fSize=2293632 startOffset=0  endOffset=2293631  offlen=2293632
+now play a new source, filename = /home/superrh/music/摇篮曲-舒伯特.mp3
+now file end
+strip before close
+File /home/superrh/music/摇篮曲-舒伯特.mp3 read over    count = 5044994  time : Thu Apr  4 16:25:32 2013
+
+Thu Apr  4 16:25:32 2013
+now play a new source
+elapseLeft=866040.000000
+lastFile=摇篮曲-舒伯特.mp3
+buf = 故乡的原风景.mp3
+Using Mp3 File: /home/superrh/music/故乡的原风景.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=282696
+fSize=4523136 startOffset=0  endOffset=4523135  offlen=4523136
+now play a new source, filename = /home/superrh/music/故乡的原风景.mp3
+now file end
+strip before close
+File /home/superrh/music/故乡的原风景.mp3 read over    count = 5058246  time : Thu Apr  4 16:30:15 2013
+
+Thu Apr  4 16:30:15 2013
+now play a new source
+elapseLeft=583368.000000
+lastFile=故乡的原风景.mp3
+buf = 月亮门(Moon_gate).mp3
+Using Mp3 File: /home/superrh/music/月亮门(Moon_gate).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=255216
+fSize=4083456 startOffset=0  endOffset=4083455  offlen=4083456
+now play a new source, filename = /home/superrh/music/月亮门(Moon_gate).mp3
+now file end
+strip before close
+File /home/superrh/music/月亮门(Moon_gate).mp3 read over    count = 5070210  time : Thu Apr  4 16:34:30 2013
+
+Thu Apr  4 16:34:30 2013
+now play a new source
+elapseLeft=328176.000000
+lastFile=月亮门(Moon_gate).mp3
+buf = 杨柳.mp3
+Using Mp3 File: /home/superrh/music/杨柳.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=277968
+fSize=4447488 startOffset=0  endOffset=4447487  offlen=4447488
+now play a new source, filename = /home/superrh/music/杨柳.mp3
+now file end
+strip before close
+File /home/superrh/music/杨柳.mp3 read over    count = 5083240  time : Thu Apr  4 16:39:08 2013
+
+Thu Apr  4 16:39:08 2013
+now play a new source
+elapseLeft=50232.000000
+lastFile=杨柳.mp3
+buf = 海浪.mp3
+Using Mp3 File: /home/superrh/music/海浪.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=50233
+fSize=5081472 startOffset=0  endOffset=805070  offlen=805071
+now play a new source, filename = /home/superrh/music/海浪.mp3
+now file end
+strip before close
+File /home/superrh/music/海浪.mp3 read over    count = 5085599  time : Thu Apr  4 16:39:58 2013
+
+Thu Apr  4 16:39:58 2013
+now play a new source
+now play a new program
+Thu Apr  4 16:39:58 CST 2013
+strftime=16:40:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '16:40:01' AND EndTime > '16:40:01') OR ((StartTime > EndTime) AND ((StartTime <= '16:40:01') OR (EndTime > '16:40:01'))))
+elapseLeft=1199928.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 5093344  time : Thu Apr  4 16:42:43 2013
+
+Thu Apr  4 16:42:43 2013
+now play a new source
+elapseLeft=1034736.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 5101089  time : Thu Apr  4 16:45:28 2013
+
+Thu Apr  4 16:45:28 2013
+now play a new source
+elapseLeft=869544.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 5108834  time : Thu Apr  4 16:48:14 2013
+
+Thu Apr  4 16:48:14 2013
+now play a new source
+elapseLeft=704352.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 5116579  time : Thu Apr  4 16:50:59 2013
+
+Thu Apr  4 16:50:59 2013
+now play a new source
+elapseLeft=539160.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 5124324  time : Thu Apr  4 16:53:44 2013
+
+Thu Apr  4 16:53:44 2013
+now play a new source
+elapseLeft=373968.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 5132069  time : Thu Apr  4 16:56:29 2013
+
+Thu Apr  4 16:56:29 2013
+now play a new source
+elapseLeft=208776.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 5139814  time : Thu Apr  4 16:59:14 2013
+
+Thu Apr  4 16:59:14 2013
+now play a new source
+elapseLeft=43584.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=43585
+fSize=2643456 startOffset=0  endOffset=698543  offlen=698544
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 5141862  time : Thu Apr  4 16:59:58 2013
+
+Thu Apr  4 16:59:58 2013
+now play a new source
+now play a new program
+Thu Apr  4 16:59:58 CST 2013
+strftime=17:00:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '17:00:01' AND EndTime > '17:00:01') OR ((StartTime > EndTime) AND ((StartTime <= '17:00:01') OR (EndTime > '17:00:01'))))
+elapseLeft=25199928.000000
+lastFile=201207301200.s48
+buf = 201207311200.s48
+Using S48 File: /home/superrh/old/201207311200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207311200.s48
+now file end
+strip before close
+File /home/superrh/old/201207311200.s48 read over    count = 5310612  time : Thu Apr  4 17:59:58 2013
+
+Thu Apr  4 17:59:58 2013
+now play a new source
+elapseLeft=21599952.000000
+lastFile=201207311200.s48
+another list circle
+Using S48 File: /home/superrh/old/201206011200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206011200.s48
+now file end
+strip before close
+File /home/superrh/old/201206011200.s48 read over    count = 5479410  time : Thu Apr  4 18:59:59 2013
+
+Thu Apr  4 18:59:59 2013
+now play a new source
+elapseLeft=17998968.000000
+lastFile=201206011200.s48
+buf = 201206021200.s48
+Using S48 File: /home/superrh/old/201206021200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206021200.s48
+now file end
+strip before close
+File /home/superrh/old/201206021200.s48 read over    count = 5648208  time : Thu Apr  4 20:00:00 2013
+
+Thu Apr  4 20:00:00 2013
+now play a new source
+elapseLeft=14397984.000000
+lastFile=201206021200.s48
+buf = 201206031200.s48
+Using S48 File: /home/superrh/old/201206031200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206031200.s48
+now file end
+strip before close
+File /home/superrh/old/201206031200.s48 read over    count = 5817006  time : Thu Apr  4 21:00:01 2013
+
+Thu Apr  4 21:00:01 2013
+now play a new source
+elapseLeft=10797000.000000
+lastFile=201206031200.s48
+buf = 201206041200.s48
+Using S48 File: /home/superrh/old/201206041200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206041200.s48
+now file end
+strip before close
+File /home/superrh/old/201206041200.s48 read over    count = 5985804  time : Thu Apr  4 22:00:02 2013
+
+Thu Apr  4 22:00:02 2013
+now play a new source
+elapseLeft=7196016.000000
+lastFile=201206041200.s48
+buf = 201206051200.s48
+Using S48 File: /home/superrh/old/201206051200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206051200.s48
+now file end
+strip before close
+File /home/superrh/old/201206051200.s48 read over    count = 6154602  time : Thu Apr  4 23:00:03 2013
+
+Thu Apr  4 23:00:03 2013
+now play a new source
+elapseLeft=3595032.000000
+lastFile=201206051200.s48
+buf = 201206061200.s48
+Using S48 File: /home/superrh/old/201206061200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3595033
+fSize=115232256 startOffset=0  endOffset=115113890  offlen=115113891
+now play a new source, filename = /home/superrh/old/201206061200.s48
+now file end
+strip before close
+File /home/superrh/old/201206061200.s48 read over    count = 6323225  time : Fri Apr  5 00:00:00 2013
+
+Fri Apr  5 00:00:00 2013
+now play a new source
+now play a new program
+Fri Apr  5 00:00:00 CST 2013
+strftime=00:00:03
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '00:00:03' AND EndTime > '00:00:03') OR ((StartTime > EndTime) AND ((StartTime <= '00:00:03') OR (EndTime > '00:00:03'))))
+elapseLeft=28797768.000000
+lastFile=201206061200.s48
+buf = 201206071200.s48
+Using S48 File: /home/superrh/old/201206071200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206071200.s48
+now file end
+strip before close
+File /home/superrh/old/201206071200.s48 read over    count = 6492023  time : Fri Apr  5 01:00:01 2013
+
+Fri Apr  5 01:00:01 2013
+now play a new source
+elapseLeft=25196784.000000
+lastFile=201206071200.s48
+buf = 201206081200.s48
+Using S48 File: /home/superrh/old/201206081200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206081200.s48
+now file end
+strip before close
+File /home/superrh/old/201206081200.s48 read over    count = 6660821  time : Fri Apr  5 02:00:02 2013
+
+Fri Apr  5 02:00:02 2013
+now play a new source
+elapseLeft=21595800.000000
+lastFile=201206081200.s48
+buf = 201206091200.s48
+Using S48 File: /home/superrh/old/201206091200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206091200.s48
+now file end
+strip before close
+File /home/superrh/old/201206091200.s48 read over    count = 6829619  time : Fri Apr  5 03:00:03 2013
+
+Fri Apr  5 03:00:03 2013
+now play a new source
+elapseLeft=17994816.000000
+lastFile=201206091200.s48
+buf = 201206101200.s48
+Using S48 File: /home/superrh/old/201206101200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206101200.s48
+now file end
+strip before close
+File /home/superrh/old/201206101200.s48 read over    count = 6998417  time : Fri Apr  5 04:00:04 2013
+
+Fri Apr  5 04:00:04 2013
+now play a new source
+elapseLeft=14393832.000000
+lastFile=201206101200.s48
+buf = 201206111200.s48
+Using S48 File: /home/superrh/old/201206111200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206111200.s48
+now file end
+strip before close
+File /home/superrh/old/201206111200.s48 read over    count = 7167215  time : Fri Apr  5 05:00:05 2013
+
+Fri Apr  5 05:00:05 2013
+now play a new source
+elapseLeft=10792848.000000
+lastFile=201206111200.s48
+buf = 201206121200.s48
+Using S48 File: /home/superrh/old/201206121200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206121200.s48
+now file end
+strip before close
+File /home/superrh/old/201206121200.s48 read over    count = 7336013  time : Fri Apr  5 06:00:06 2013
+
+Fri Apr  5 06:00:06 2013
+now play a new source
+elapseLeft=7191864.000000
+lastFile=201206121200.s48
+buf = 201206131200.s48
+Using S48 File: /home/superrh/old/201206131200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206131200.s48
+now file end
+strip before close
+File /home/superrh/old/201206131200.s48 read over    count = 7504811  time : Fri Apr  5 07:00:07 2013
+
+Fri Apr  5 07:00:07 2013
+now play a new source
+elapseLeft=3590880.000000
+lastFile=201206131200.s48
+buf = 201206141200.s48
+Using S48 File: /home/superrh/old/201206141200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3590881
+fSize=115232256 startOffset=0  endOffset=114981177  offlen=114981178
+now play a new source, filename = /home/superrh/old/201206141200.s48
+now file end
+strip before close
+File /home/superrh/old/201206141200.s48 read over    count = 7673242  time : Fri Apr  5 08:00:00 2013
+
+Fri Apr  5 08:00:00 2013
+now play a new source
+now play a new program
+Fri Apr  5 08:00:00 CST 2013
+strftime=08:00:03
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '08:00:03' AND EndTime > '08:00:03') OR ((StartTime > EndTime) AND ((StartTime <= '08:00:03') OR (EndTime > '08:00:03'))))
+elapseLeft=8997720.000000
+lastFile=201206141200.s48
+buf = 201206151200.s48
+Using S48 File: /home/superrh/old/201206151200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206151200.s48
+now file end
+strip before close
+File /home/superrh/old/201206151200.s48 read over    count = 7842040  time : Fri Apr  5 09:00:01 2013
+
+Fri Apr  5 09:00:01 2013
+now play a new source
+elapseLeft=5396736.000000
+lastFile=201206151200.s48
+buf = 201206161200.s48
+Using S48 File: /home/superrh/old/201206161200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206161200.s48
+now file end
+strip before close
+File /home/superrh/old/201206161200.s48 read over    count = 8010838  time : Fri Apr  5 10:00:02 2013
+
+Fri Apr  5 10:00:02 2013
+now play a new source
+elapseLeft=1795752.000000
+lastFile=201206161200.s48
+buf = 201206171200.s48
+Using S48 File: /home/superrh/old/201206171200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=1795753
+fSize=115200000 startOffset=0  endOffset=57501384  offlen=57501385
+now play a new source, filename = /home/superrh/old/201206171200.s48
+now file end
+strip before close
+File /home/superrh/old/201206171200.s48 read over    count = 8095069  time : Fri Apr  5 10:29:59 2013
+
+Fri Apr  5 10:29:59 2013
+now play a new source
+now play a new program
+Fri Apr  5 10:29:59 CST 2013
+strftime=10:30:02
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '10:30:02' AND EndTime > '10:30:02') OR ((StartTime > EndTime) AND ((StartTime <= '10:30:02') OR (EndTime > '10:30:02'))))
+elapseLeft=1798848.000000
+lastFile=海浪.mp3
+buf = 爱的罗曼史.mp3
+Using Mp3 File: /home/superrh/music/爱的罗曼史.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=194928
+fSize=3118848 startOffset=0  endOffset=3118847  offlen=3118848
+now play a new source, filename = /home/superrh/music/爱的罗曼史.mp3
+now file end
+strip before close
+File /home/superrh/music/爱的罗曼史.mp3 read over    count = 8104207  time : Fri Apr  5 10:33:14 2013
+
+Fri Apr  5 10:33:14 2013
+now play a new source
+elapseLeft=1603944.000000
+lastFile=爱的罗曼史.mp3
+buf = 王都炎上.mp3
+Using Mp3 File: /home/superrh/music/王都炎上.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=163152
+fSize=2610432 startOffset=0  endOffset=2610431  offlen=2610432
+now play a new source, filename = /home/superrh/music/王都炎上.mp3
+now file end
+strip before close
+File /home/superrh/music/王都炎上.mp3 read over    count = 8111855  time : Fri Apr  5 10:35:57 2013
+
+Fri Apr  5 10:35:57 2013
+now play a new source
+elapseLeft=1440816.000000
+lastFile=王都炎上.mp3
+buf = 理查德克莱德曼_钢琴曲_毕业生.mp3
+Using Mp3 File: /home/superrh/music/理查德克莱德曼_钢琴曲_毕业生.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=208080
+fSize=3329280 startOffset=0  endOffset=3329279  offlen=3329280
+now play a new source, filename = /home/superrh/music/理查德克莱德曼_钢琴曲_毕业生.mp3
+now file end
+strip before close
+File /home/superrh/music/理查德克莱德曼_钢琴曲_毕业生.mp3 read over    count = 8121609  time : Fri Apr  5 10:39:25 2013
+
+Fri Apr  5 10:39:25 2013
+now play a new source
+elapseLeft=1232760.000000
+lastFile=理查德克莱德曼_钢琴曲_毕业生.mp3
+buf = 神秘园-Windancer.mp3
+Using Mp3 File: /home/superrh/music/神秘园-Windancer.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=202728
+fSize=3243648 startOffset=0  endOffset=3243647  offlen=3243648
+now play a new source, filename = /home/superrh/music/神秘园-Windancer.mp3
+now file end
+strip before close
+File /home/superrh/music/神秘园-Windancer.mp3 read over    count = 8131112  time : Fri Apr  5 10:42:48 2013
+
+Fri Apr  5 10:42:48 2013
+now play a new source
+elapseLeft=1030056.000000
+lastFile=神秘园-Windancer.mp3
+buf = 纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+Using Mp3 File: /home/superrh/music/纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=195312
+fSize=3124992 startOffset=0  endOffset=3124991  offlen=3124992
+now play a new source, filename = /home/superrh/music/纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+now file end
+strip before close
+File /home/superrh/music/纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3 read over    count = 8140268  time : Fri Apr  5 10:46:03 2013
+
+Fri Apr  5 10:46:03 2013
+now play a new source
+elapseLeft=834768.000000
+lastFile=纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+buf = 纯音乐-柔板(Adagio).mp3
+Using Mp3 File: /home/superrh/music/纯音乐-柔板(Adagio).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=175680
+fSize=2810880 startOffset=0  endOffset=2810879  offlen=2810880
+now play a new source, filename = /home/superrh/music/纯音乐-柔板(Adagio).mp3
+now file end
+strip before close
+File /home/superrh/music/纯音乐-柔板(Adagio).mp3 read over    count = 8148503  time : Fri Apr  5 10:48:59 2013
+
+Fri Apr  5 10:48:59 2013
+now play a new source
+elapseLeft=659112.000000
+lastFile=纯音乐-柔板(Adagio).mp3
+buf = 阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+Using Mp3 File: /home/superrh/music/阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=264288
+fSize=4228608 startOffset=0  endOffset=4228607  offlen=4228608
+now play a new source, filename = /home/superrh/music/阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+now file end
+strip before close
+File /home/superrh/music/阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3 read over    count = 8160892  time : Fri Apr  5 10:53:23 2013
+
+Fri Apr  5 10:53:23 2013
+now play a new source
+elapseLeft=394848.000000
+lastFile=阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+buf = 雪的梦幻(Snowdreams).mp3
+Using Mp3 File: /home/superrh/music/雪的梦幻(Snowdreams).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=293472
+fSize=4695552 startOffset=0  endOffset=4695551  offlen=4695552
+now play a new source, filename = /home/superrh/music/雪的梦幻(Snowdreams).mp3
+now file end
+strip before close
+File /home/superrh/music/雪的梦幻(Snowdreams).mp3 read over    count = 8174649  time : Fri Apr  5 10:58:17 2013
+
+Fri Apr  5 10:58:17 2013
+now play a new source
+elapseLeft=101400.000000
+lastFile=雪的梦幻(Snowdreams).mp3
+another list circle
+Using Mp3 File: /home/superrh/music/15-AudioTrack.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=101401
+fSize=1755264 startOffset=0  endOffset=1624740  offlen=1624741
+now play a new source, filename = /home/superrh/music/15-AudioTrack.mp3
+now file end
+strip before close
+File /home/superrh/music/15-AudioTrack.mp3 read over    count = 8179410  time : Fri Apr  5 10:59:58 2013
+
+Fri Apr  5 10:59:58 2013
+now play a new source
+now play a new program
+Fri Apr  5 10:59:58 CST 2013
+strftime=11:00:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '11:00:01' AND EndTime > '11:00:01') OR ((StartTime > EndTime) AND ((StartTime <= '11:00:01') OR (EndTime > '11:00:01'))))
+elapseLeft=7199856.000000
+lastFile=201206171200.s48
+buf = 201206181200.s48
+Using S48 File: /home/superrh/old/201206181200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206181200.s48
+now file end
+strip before close
+File /home/superrh/old/201206181200.s48 read over    count = 8348208  time : Fri Apr  5 11:59:59 2013
+
+Fri Apr  5 11:59:59 2013
+now play a new source
+elapseLeft=3598872.000000
+lastFile=201206181200.s48
+buf = 201206191200.s48
+Using S48 File: /home/superrh/old/201206191200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3598873
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201206191200.s48
+now file end
+strip before close
+File /home/superrh/old/201206191200.s48 read over    count = 8516958  time : Fri Apr  5 12:59:59 2013
+
+Fri Apr  5 12:59:59 2013
+now play a new source
+now play a new program
+Fri Apr  5 12:59:59 CST 2013
+strftime=13:00:02
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '13:00:02' AND EndTime > '13:00:02') OR ((StartTime > EndTime) AND ((StartTime <= '13:00:02') OR (EndTime > '13:00:02'))))
+elapseLeft=7798896.000000
+lastFile=201206191200.s48
+buf = 201206201200.s48
+Using S48 File: /home/superrh/old/201206201200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201206201200.s48
+now file end
+strip before close
+File /home/superrh/old/201206201200.s48 read over    count = 8685708  time : Fri Apr  5 13:59:59 2013
+
+Fri Apr  5 13:59:59 2013
+now play a new source
+elapseLeft=4198920.000000
+lastFile=201206201200.s48
+buf = 201206211200.s48
+Using S48 File: /home/superrh/old/201206211200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206211200.s48
+now file end
+strip before close
+File /home/superrh/old/201206211200.s48 read over    count = 8854506  time : Fri Apr  5 15:00:00 2013
+
+Fri Apr  5 15:00:00 2013
+now play a new source
+elapseLeft=597936.000000
+lastFile=201206211200.s48
+buf = 201206221200.s48
+Using S48 File: /home/superrh/old/201206221200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=597937
+fSize=115200000 startOffset=0  endOffset=19146926  offlen=19146927
+now play a new source, filename = /home/superrh/old/201206221200.s48
+now file end
+strip before close
+File /home/superrh/old/201206221200.s48 read over    count = 8882554  time : Fri Apr  5 15:09:58 2013
+
+Fri Apr  5 15:09:58 2013
+now play a new source
+now play a new program
+Fri Apr  5 15:09:58 CST 2013
+strftime=15:10:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '15:10:01' AND EndTime > '15:10:01') OR ((StartTime > EndTime) AND ((StartTime <= '15:10:01') OR (EndTime > '15:10:01'))))
+elapseLeft=4199616.000000
+lastFile=15-AudioTrack.mp3
+buf = 52-AudioTrack.mp3
+Using Mp3 File: /home/superrh/music/52-AudioTrack.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=104616
+fSize=1673856 startOffset=0  endOffset=1673855  offlen=1673856
+now play a new source, filename = /home/superrh/music/52-AudioTrack.mp3
+now file end
+strip before close
+File /home/superrh/music/52-AudioTrack.mp3 read over    count = 8887458  time : Fri Apr  5 15:11:43 2013
+
+Fri Apr  5 15:11:43 2013
+now play a new source
+elapseLeft=4095024.000000
+lastFile=52-AudioTrack.mp3
+buf = Childhood_Memory.mp3
+Using Mp3 File: /home/superrh/music/Childhood_Memory.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=195888
+fSize=3134208 startOffset=0  endOffset=3134207  offlen=3134208
+now play a new source, filename = /home/superrh/music/Childhood_Memory.mp3
+now file end
+strip before close
+File /home/superrh/music/Childhood_Memory.mp3 read over    count = 8896641  time : Fri Apr  5 15:14:59 2013
+
+Fri Apr  5 15:14:59 2013
+now play a new source
+elapseLeft=3899160.000000
+lastFile=Childhood_Memory.mp3
+buf = Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+Using Mp3 File: /home/superrh/music/Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=151536
+fSize=2424576 startOffset=0  endOffset=2424575  offlen=2424576
+now play a new source, filename = /home/superrh/music/Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+now file end
+strip before close
+File /home/superrh/music/Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3 read over    count = 8903745  time : Fri Apr  5 15:17:30 2013
+
+Fri Apr  5 15:17:30 2013
+now play a new source
+elapseLeft=3747648.000000
+lastFile=Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+buf = GERRN_SHANNEL.mp3
+Using Mp3 File: /home/superrh/music/GERRN_SHANNEL.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=227424
+fSize=3638784 startOffset=0  endOffset=3638783  offlen=3638784
+now play a new source, filename = /home/superrh/music/GERRN_SHANNEL.mp3
+now file end
+strip before close
+File /home/superrh/music/GERRN_SHANNEL.mp3 read over    count = 8914406  time : Fri Apr  5 15:21:18 2013
+
+Fri Apr  5 15:21:18 2013
+now play a new source
+elapseLeft=3520248.000000
+lastFile=GERRN_SHANNEL.mp3
+buf = Liekkas.mp3
+Using Mp3 File: /home/superrh/music/Liekkas.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=203904
+fSize=3262464 startOffset=0  endOffset=3262463  offlen=3262464
+now play a new source, filename = /home/superrh/music/Liekkas.mp3
+now file end
+strip before close
+File /home/superrh/music/Liekkas.mp3 read over    count = 8923964  time : Fri Apr  5 15:24:42 2013
+
+Fri Apr  5 15:24:42 2013
+now play a new source
+elapseLeft=3316368.000000
+lastFile=Liekkas.mp3
+buf = Moscow_Never_Sleeps_freestyle_remix.mp3
+Using Mp3 File: /home/superrh/music/Moscow_Never_Sleeps_freestyle_remix.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=151536
+fSize=2424576 startOffset=0  endOffset=2424575  offlen=2424576
+now play a new source, filename = /home/superrh/music/Moscow_Never_Sleeps_freestyle_remix.mp3
+now file end
+strip before close
+File /home/superrh/music/Moscow_Never_Sleeps_freestyle_remix.mp3 read over    count = 8931068  time : Fri Apr  5 15:27:13 2013
+
+Fri Apr  5 15:27:13 2013
+now play a new source
+elapseLeft=3164856.000000
+lastFile=Moscow_Never_Sleeps_freestyle_remix.mp3
+buf = River_Flows_In_You(钢琴改编版).mp3
+Using Mp3 File: /home/superrh/music/River_Flows_In_You(钢琴改编版).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=166128
+fSize=2658048 startOffset=0  endOffset=2658047  offlen=2658048
+now play a new source, filename = /home/superrh/music/River_Flows_In_You(钢琴改编版).mp3
+now file end
+strip before close
+File /home/superrh/music/River_Flows_In_You(钢琴改编版).mp3 read over    count = 8938856  time : Fri Apr  5 15:29:59 2013
+
+Fri Apr  5 15:29:59 2013
+now play a new source
+elapseLeft=2998752.000000
+lastFile=River_Flows_In_You(钢琴改编版).mp3
+buf = Sundial_Dreams.mp3
+Using Mp3 File: /home/superrh/music/Sundial_Dreams.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=286464
+fSize=4583424 startOffset=0  endOffset=4583423  offlen=4583424
+now play a new source, filename = /home/superrh/music/Sundial_Dreams.mp3
+now file end
+strip before close
+File /home/superrh/music/Sundial_Dreams.mp3 read over    count = 8952284  time : Fri Apr  5 15:34:46 2013
+
+Fri Apr  5 15:34:46 2013
+now play a new source
+elapseLeft=2712312.000000
+lastFile=Sundial_Dreams.mp3
+buf = The_Truth_That_You_Leave.mp3
+Using Mp3 File: /home/superrh/music/The_Truth_That_You_Leave.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=223512
+fSize=3576192 startOffset=0  endOffset=3576191  offlen=3576192
+now play a new source, filename = /home/superrh/music/The_Truth_That_You_Leave.mp3
+now file end
+strip before close
+File /home/superrh/music/The_Truth_That_You_Leave.mp3 read over    count = 8962761  time : Fri Apr  5 15:38:29 2013
+
+Fri Apr  5 15:38:29 2013
+now play a new source
+elapseLeft=2488824.000000
+lastFile=The_Truth_That_You_Leave.mp3
+buf = Variations_on_the_Kanon.mp3
+Using Mp3 File: /home/superrh/music/Variations_on_the_Kanon.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=323544
+fSize=5176704 startOffset=0  endOffset=5176703  offlen=5176704
+now play a new source, filename = /home/superrh/music/Variations_on_the_Kanon.mp3
+now file end
+strip before close
+File /home/superrh/music/Variations_on_the_Kanon.mp3 read over    count = 8977927  time : Fri Apr  5 15:43:53 2013
+
+Fri Apr  5 15:43:53 2013
+now play a new source
+elapseLeft=2165304.000000
+lastFile=Variations_on_the_Kanon.mp3
+buf = We_Are_Electric.mp3
+Using Mp3 File: /home/superrh/music/We_Are_Electric.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=211488
+fSize=3383808 startOffset=0  endOffset=3383807  offlen=3383808
+now play a new source, filename = /home/superrh/music/We_Are_Electric.mp3
+now file end
+strip before close
+File /home/superrh/music/We_Are_Electric.mp3 read over    count = 8987841  time : Fri Apr  5 15:47:24 2013
+
+Fri Apr  5 15:47:24 2013
+now play a new source
+elapseLeft=1953840.000000
+lastFile=We_Are_Electric.mp3
+buf = Yiruma(李闰珉)-Kiss_The_Rain.mp3
+Using Mp3 File: /home/superrh/music/Yiruma(李闰珉)-Kiss_The_Rain.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=260952
+fSize=4175232 startOffset=0  endOffset=4175231  offlen=4175232
+now play a new source, filename = /home/superrh/music/Yiruma(李闰珉)-Kiss_The_Rain.mp3
+now file end
+strip before close
+File /home/superrh/music/Yiruma(李闰珉)-Kiss_The_Rain.mp3 read over    count = 9000073  time : Fri Apr  5 15:51:45 2013
+
+Fri Apr  5 15:51:45 2013
+now play a new source
+elapseLeft=1692912.000000
+lastFile=Yiruma(李闰珉)-Kiss_The_Rain.mp3
+buf = Your_Smile.mp3
+Using Mp3 File: /home/superrh/music/Your_Smile.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=172560
+fSize=2760960 startOffset=0  endOffset=2760959  offlen=2760960
+now play a new source, filename = /home/superrh/music/Your_Smile.mp3
+now file end
+strip before close
+File /home/superrh/music/Your_Smile.mp3 read over    count = 9008162  time : Fri Apr  5 15:54:38 2013
+
+Fri Apr  5 15:54:38 2013
+now play a new source
+elapseLeft=1520376.000000
+lastFile=Your_Smile.mp3
+buf = breakin_it_down.mp3
+Using Mp3 File: /home/superrh/music/breakin_it_down.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=223008
+fSize=3568128 startOffset=0  endOffset=3568127  offlen=3568128
+now play a new source, filename = /home/superrh/music/breakin_it_down.mp3
+now file end
+strip before close
+File /home/superrh/music/breakin_it_down.mp3 read over    count = 9018616  time : Fri Apr  5 15:58:21 2013
+
+Fri Apr  5 15:58:21 2013
+now play a new source
+elapseLeft=1297392.000000
+lastFile=breakin_it_down.mp3
+buf = flying_steps_-_breakin_it_down_.mp3
+Using Mp3 File: /home/superrh/music/flying_steps_-_breakin_it_down_.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=223008
+fSize=3568128 startOffset=0  endOffset=3568127  offlen=3568128
+now play a new source, filename = /home/superrh/music/flying_steps_-_breakin_it_down_.mp3
+now file end
+strip before close
+File /home/superrh/music/flying_steps_-_breakin_it_down_.mp3 read over    count = 9029070  time : Fri Apr  5 16:02:04 2013
+
+Fri Apr  5 16:02:04 2013
+now play a new source
+elapseLeft=1074408.000000
+lastFile=flying_steps_-_breakin_it_down_.mp3
+buf = ydgqq05.mp3
+Using Mp3 File: /home/superrh/music/ydgqq05.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=127224
+fSize=2035584 startOffset=0  endOffset=2035583  offlen=2035584
+now play a new source, filename = /home/superrh/music/ydgqq05.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq05.mp3 read over    count = 9035034  time : Fri Apr  5 16:04:11 2013
+
+Fri Apr  5 16:04:11 2013
+now play a new source
+elapseLeft=947208.000000
+lastFile=ydgqq05.mp3
+buf = ydgqq08.mp3
+Using Mp3 File: /home/superrh/music/ydgqq08.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=118680
+fSize=1898880 startOffset=0  endOffset=1898879  offlen=1898880
+now play a new source, filename = /home/superrh/music/ydgqq08.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq08.mp3 read over    count = 9040597  time : Fri Apr  5 16:06:09 2013
+
+Fri Apr  5 16:06:09 2013
+now play a new source
+elapseLeft=828552.000000
+lastFile=ydgqq08.mp3
+buf = ydgqq11.mp3
+Using Mp3 File: /home/superrh/music/ydgqq11.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=110112
+fSize=1761792 startOffset=0  endOffset=1761791  offlen=1761792
+now play a new source, filename = /home/superrh/music/ydgqq11.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq11.mp3 read over    count = 9045759  time : Fri Apr  5 16:08:00 2013
+
+Fri Apr  5 16:08:00 2013
+now play a new source
+elapseLeft=718464.000000
+lastFile=ydgqq11.mp3
+buf = ydgqq12.mp3
+Using Mp3 File: /home/superrh/music/ydgqq12.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=115320
+fSize=1845120 startOffset=0  endOffset=1845119  offlen=1845120
+now play a new source, filename = /home/superrh/music/ydgqq12.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq12.mp3 read over    count = 9051165  time : Fri Apr  5 16:09:55 2013
+
+Fri Apr  5 16:09:55 2013
+now play a new source
+elapseLeft=603168.000000
+lastFile=ydgqq12.mp3
+buf = ydgqq13.mp3
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 9058910  time : Fri Apr  5 16:12:40 2013
+
+Fri Apr  5 16:12:40 2013
+now play a new source
+elapseLeft=437976.000000
+lastFile=ydgqq13.mp3
+buf = ydgqq14.mp3
+Using Mp3 File: /home/superrh/music/ydgqq14.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=146160
+fSize=2338560 startOffset=0  endOffset=2338559  offlen=2338560
+now play a new source, filename = /home/superrh/music/ydgqq14.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq14.mp3 read over    count = 9065762  time : Fri Apr  5 16:15:06 2013
+
+Fri Apr  5 16:15:06 2013
+now play a new source
+elapseLeft=291840.000000
+lastFile=ydgqq14.mp3
+buf = ydgqq15.mp3
+Using Mp3 File: /home/superrh/music/ydgqq15.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=122808
+fSize=1964928 startOffset=0  endOffset=1964927  offlen=1964928
+now play a new source, filename = /home/superrh/music/ydgqq15.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq15.mp3 read over    count = 9071519  time : Fri Apr  5 16:17:09 2013
+
+Fri Apr  5 16:17:09 2013
+now play a new source
+elapseLeft=169056.000000
+lastFile=ydgqq15.mp3
+buf = ydgqq16.mp3
+Using Mp3 File: /home/superrh/music/ydgqq16.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=107232
+fSize=1715712 startOffset=0  endOffset=1715711  offlen=1715712
+now play a new source, filename = /home/superrh/music/ydgqq16.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq16.mp3 read over    count = 9076546  time : Fri Apr  5 16:18:56 2013
+
+Fri Apr  5 16:18:56 2013
+now play a new source
+elapseLeft=61848.000000
+lastFile=ydgqq16.mp3
+buf = ydgqq17.mp3
+Using Mp3 File: /home/superrh/music/ydgqq17.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=61849
+fSize=1761792 startOffset=0  endOffset=991104  offlen=991105
+now play a new source, filename = /home/superrh/music/ydgqq17.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq17.mp3 read over    count = 9079450  time : Fri Apr  5 16:19:58 2013
+
+Fri Apr  5 16:19:58 2013
+now play a new source
+now play a new program
+Fri Apr  5 16:19:58 CST 2013
+strftime=16:20:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '16:20:01' AND EndTime > '16:20:01') OR ((StartTime > EndTime) AND ((StartTime <= '16:20:01') OR (EndTime > '16:20:01'))))
+elapseLeft=1199928.000000
+lastFile=ydgqq17.mp3
+buf = ydgqq18.mp3
+Using Mp3 File: /home/superrh/music/ydgqq18.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=181104
+fSize=2897664 startOffset=0  endOffset=2897663  offlen=2897664
+now play a new source, filename = /home/superrh/music/ydgqq18.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq18.mp3 read over    count = 9087940  time : Fri Apr  5 16:22:59 2013
+
+Fri Apr  5 16:22:59 2013
+now play a new source
+elapseLeft=1018848.000000
+lastFile=ydgqq18.mp3
+buf = ydgqq19.mp3
+Using Mp3 File: /home/superrh/music/ydgqq19.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=106800
+fSize=1708800 startOffset=0  endOffset=1708799  offlen=1708800
+now play a new source, filename = /home/superrh/music/ydgqq19.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq19.mp3 read over    count = 9092947  time : Fri Apr  5 16:24:46 2013
+
+Fri Apr  5 16:24:46 2013
+now play a new source
+elapseLeft=912072.000000
+lastFile=ydgqq19.mp3
+buf = ydgqq20.mp3
+Using Mp3 File: /home/superrh/music/ydgqq20.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=133248
+fSize=2131968 startOffset=0  endOffset=2131967  offlen=2131968
+now play a new source, filename = /home/superrh/music/ydgqq20.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq20.mp3 read over    count = 9099193  time : Fri Apr  5 16:26:59 2013
+
+Fri Apr  5 16:26:59 2013
+now play a new source
+elapseLeft=778848.000000
+lastFile=ydgqq20.mp3
+buf = ydgqq21.mp3
+Using Mp3 File: /home/superrh/music/ydgqq21.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=136944
+fSize=2191104 startOffset=0  endOffset=2191103  offlen=2191104
+now play a new source, filename = /home/superrh/music/ydgqq21.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq21.mp3 read over    count = 9105613  time : Fri Apr  5 16:29:16 2013
+
+Fri Apr  5 16:29:16 2013
+now play a new source
+elapseLeft=641928.000000
+lastFile=ydgqq21.mp3
+buf = ydgqq22.mp3
+Using Mp3 File: /home/superrh/music/ydgqq22.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=102456
+fSize=1639296 startOffset=0  endOffset=1639295  offlen=1639296
+now play a new source, filename = /home/superrh/music/ydgqq22.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq22.mp3 read over    count = 9110416  time : Fri Apr  5 16:30:58 2013
+
+Fri Apr  5 16:30:58 2013
+now play a new source
+elapseLeft=539496.000000
+lastFile=ydgqq22.mp3
+buf = ydgqq23.mp3
+Using Mp3 File: /home/superrh/music/ydgqq23.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=102120
+fSize=1633920 startOffset=0  endOffset=1633919  offlen=1633920
+now play a new source, filename = /home/superrh/music/ydgqq23.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq23.mp3 read over    count = 9115203  time : Fri Apr  5 16:32:41 2013
+
+Fri Apr  5 16:32:41 2013
+now play a new source
+elapseLeft=437400.000000
+lastFile=ydgqq23.mp3
+buf = ydgqq24.mp3
+Using Mp3 File: /home/superrh/music/ydgqq24.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=108096
+fSize=1729536 startOffset=0  endOffset=1729535  offlen=1729536
+now play a new source, filename = /home/superrh/music/ydgqq24.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq24.mp3 read over    count = 9120270  time : Fri Apr  5 16:34:29 2013
+
+Fri Apr  5 16:34:29 2013
+now play a new source
+elapseLeft=329328.000000
+lastFile=ydgqq24.mp3
+buf = ydgqq25.mp3
+Using Mp3 File: /home/superrh/music/ydgqq25.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=133032
+fSize=2128512 startOffset=0  endOffset=2128511  offlen=2128512
+now play a new source, filename = /home/superrh/music/ydgqq25.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq25.mp3 read over    count = 9126506  time : Fri Apr  5 16:36:42 2013
+
+Fri Apr  5 16:36:42 2013
+now play a new source
+elapseLeft=196320.000000
+lastFile=ydgqq25.mp3
+buf = ydgqq26.mp3
+Using Mp3 File: /home/superrh/music/ydgqq26.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=88104
+fSize=1409664 startOffset=0  endOffset=1409663  offlen=1409664
+now play a new source, filename = /home/superrh/music/ydgqq26.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq26.mp3 read over    count = 9130636  time : Fri Apr  5 16:38:10 2013
+
+Fri Apr  5 16:38:10 2013
+now play a new source
+elapseLeft=108240.000000
+lastFile=ydgqq26.mp3
+buf = ydgqq27.mp3
+Using Mp3 File: /home/superrh/music/ydgqq27.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=108241
+fSize=1975296 startOffset=0  endOffset=1734278  offlen=1734279
+now play a new source, filename = /home/superrh/music/ydgqq27.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq27.mp3 read over    count = 9135718  time : Fri Apr  5 16:39:58 2013
+
+Fri Apr  5 16:39:58 2013
+now play a new source
+now play a new program
+Fri Apr  5 16:39:58 CST 2013
+strftime=16:40:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '16:40:01' AND EndTime > '16:40:01') OR ((StartTime > EndTime) AND ((StartTime <= '16:40:01') OR (EndTime > '16:40:01'))))
+elapseLeft=1199856.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 9143463  time : Fri Apr  5 16:42:43 2013
+
+Fri Apr  5 16:42:43 2013
+now play a new source
+elapseLeft=1034664.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 9151208  time : Fri Apr  5 16:45:28 2013
+
+Fri Apr  5 16:45:28 2013
+now play a new source
+elapseLeft=869472.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 9158953  time : Fri Apr  5 16:48:14 2013
+
+Fri Apr  5 16:48:14 2013
+now play a new source
+elapseLeft=704280.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 9166698  time : Fri Apr  5 16:50:59 2013
+
+Fri Apr  5 16:50:59 2013
+now play a new source
+elapseLeft=539088.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 9174443  time : Fri Apr  5 16:53:44 2013
+
+Fri Apr  5 16:53:44 2013
+now play a new source
+elapseLeft=373896.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 9182188  time : Fri Apr  5 16:56:29 2013
+
+Fri Apr  5 16:56:29 2013
+now play a new source
+elapseLeft=208704.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 9189933  time : Fri Apr  5 16:59:14 2013
+
+Fri Apr  5 16:59:14 2013
+now play a new source
+elapseLeft=43512.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=43513
+fSize=2643456 startOffset=0  endOffset=697390  offlen=697391
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 9191977  time : Fri Apr  5 16:59:58 2013
+
+Fri Apr  5 16:59:58 2013
+now play a new source
+now play a new program
+Fri Apr  5 16:59:58 CST 2013
+strftime=17:00:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '17:00:01' AND EndTime > '17:00:01') OR ((StartTime > EndTime) AND ((StartTime <= '17:00:01') OR (EndTime > '17:00:01'))))
+elapseLeft=25199928.000000
+lastFile=201206221200.s48
+buf = 201206231200.s48
+Using S48 File: /home/superrh/old/201206231200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201206231200.s48
+now file end
+strip before close
+File /home/superrh/old/201206231200.s48 read over    count = 9360727  time : Fri Apr  5 17:59:58 2013
+
+Fri Apr  5 17:59:58 2013
+now play a new source
+elapseLeft=21599952.000000
+lastFile=201206231200.s48
+buf = 201206241200.s48
+Using S48 File: /home/superrh/old/201206241200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206241200.s48
+now file end
+strip before close
+File /home/superrh/old/201206241200.s48 read over    count = 9529525  time : Fri Apr  5 18:59:59 2013
+
+Fri Apr  5 18:59:59 2013
+now play a new source
+elapseLeft=17998968.000000
+lastFile=201206241200.s48
+buf = 201206251200.s48
+Using S48 File: /home/superrh/old/201206251200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206251200.s48
+now file end
+strip before close
+File /home/superrh/old/201206251200.s48 read over    count = 9698323  time : Fri Apr  5 20:00:00 2013
+
+Fri Apr  5 20:00:00 2013
+now play a new source
+elapseLeft=14397984.000000
+lastFile=201206251200.s48
+buf = 201206261200.s48
+Using S48 File: /home/superrh/old/201206261200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206261200.s48
+now file end
+strip before close
+File /home/superrh/old/201206261200.s48 read over    count = 9867121  time : Fri Apr  5 21:00:01 2013
+
+Fri Apr  5 21:00:01 2013
+now play a new source
+elapseLeft=10797000.000000
+lastFile=201206261200.s48
+buf = 201206271200.s48
+Using S48 File: /home/superrh/old/201206271200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201206271200.s48
+now file end
+strip before close
+File /home/superrh/old/201206271200.s48 read over    count = 10035871  time : Fri Apr  5 22:00:01 2013
+
+Fri Apr  5 22:00:01 2013
+now play a new source
+elapseLeft=7197024.000000
+lastFile=201206271200.s48
+buf = 201206281200.s48
+Using S48 File: /home/superrh/old/201206281200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201206281200.s48
+now file end
+strip before close
+File /home/superrh/old/201206281200.s48 read over    count = 10204621  time : Fri Apr  5 23:00:01 2013
+
+Fri Apr  5 23:00:01 2013
+now play a new source
+elapseLeft=3597048.000000
+lastFile=201206281200.s48
+buf = 201206291200.s48
+Using S48 File: /home/superrh/old/201206291200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3597049
+fSize=115200000 startOffset=0  endOffset=115178898  offlen=115178899
+now play a new source, filename = /home/superrh/old/201206291200.s48
+now file end
+strip before close
+File /home/superrh/old/201206291200.s48 read over    count = 10373341  time : Sat Apr  6 00:00:00 2013
+
+Sat Apr  6 00:00:00 2013
+now play a new source
+now play a new program
+Sat Apr  6 00:00:00 CST 2013
+strftime=00:00:03
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '00:00:03' AND EndTime > '00:00:03') OR ((StartTime > EndTime) AND ((StartTime <= '00:00:03') OR (EndTime > '00:00:03'))))
+elapseLeft=28797720.000000
+lastFile=201206291200.s48
+buf = 201206301200.s48
+Using S48 File: /home/superrh/old/201206301200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201206301200.s48
+now file end
+strip before close
+File /home/superrh/old/201206301200.s48 read over    count = 10542139  time : Sat Apr  6 01:00:01 2013
+
+Sat Apr  6 01:00:01 2013
+now play a new source
+elapseLeft=25196736.000000
+lastFile=201206301200.s48
+buf = 201207011200.s48
+Using S48 File: /home/superrh/old/201207011200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207011200.s48
+now file end
+strip before close
+File /home/superrh/old/201207011200.s48 read over    count = 10710937  time : Sat Apr  6 02:00:02 2013
+
+Sat Apr  6 02:00:02 2013
+now play a new source
+elapseLeft=21595752.000000
+lastFile=201207011200.s48
+buf = 201207021200.s48
+Using S48 File: /home/superrh/old/201207021200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207021200.s48
+now file end
+strip before close
+File /home/superrh/old/201207021200.s48 read over    count = 10879735  time : Sat Apr  6 03:00:03 2013
+
+Sat Apr  6 03:00:03 2013
+now play a new source
+elapseLeft=17994768.000000
+lastFile=201207021200.s48
+buf = 201207031200.s48
+Using S48 File: /home/superrh/old/201207031200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207031200.s48
+now file end
+strip before close
+File /home/superrh/old/201207031200.s48 read over    count = 11048533  time : Sat Apr  6 04:00:04 2013
+
+Sat Apr  6 04:00:04 2013
+now play a new source
+elapseLeft=14393784.000000
+lastFile=201207031200.s48
+buf = 201207041200.s48
+Using S48 File: /home/superrh/old/201207041200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207041200.s48
+now file end
+strip before close
+File /home/superrh/old/201207041200.s48 read over    count = 11217331  time : Sat Apr  6 05:00:05 2013
+
+Sat Apr  6 05:00:05 2013
+now play a new source
+elapseLeft=10792800.000000
+lastFile=201207041200.s48
+buf = 201207051200.s48
+Using S48 File: /home/superrh/old/201207051200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207051200.s48
+now file end
+strip before close
+File /home/superrh/old/201207051200.s48 read over    count = 11386129  time : Sat Apr  6 06:00:06 2013
+
+Sat Apr  6 06:00:06 2013
+now play a new source
+elapseLeft=7191816.000000
+lastFile=201207051200.s48
+buf = 201207061200.s48
+Using S48 File: /home/superrh/old/201207061200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207061200.s48
+now file end
+strip before close
+File /home/superrh/old/201207061200.s48 read over    count = 11554927  time : Sat Apr  6 07:00:07 2013
+
+Sat Apr  6 07:00:07 2013
+now play a new source
+elapseLeft=3590832.000000
+lastFile=201207061200.s48
+buf = 201207071200.s48
+Using S48 File: /home/superrh/old/201207071200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3590833
+fSize=115232256 startOffset=0  endOffset=114979971  offlen=114979972
+now play a new source, filename = /home/superrh/old/201207071200.s48
+now file end
+strip before close
+File /home/superrh/old/201207071200.s48 read over    count = 11723356  time : Sat Apr  6 08:00:00 2013
+
+Sat Apr  6 08:00:00 2013
+now play a new source
+now play a new program
+Sat Apr  6 08:00:00 CST 2013
+strftime=08:00:03
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '08:00:03' AND EndTime > '08:00:03') OR ((StartTime > EndTime) AND ((StartTime <= '08:00:03') OR (EndTime > '08:00:03'))))
+elapseLeft=8997720.000000
+lastFile=201207071200.s48
+buf = 201207081200.s48
+Using S48 File: /home/superrh/old/201207081200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207081200.s48
+now file end
+strip before close
+File /home/superrh/old/201207081200.s48 read over    count = 11892106  time : Sat Apr  6 09:00:00 2013
+
+Sat Apr  6 09:00:00 2013
+now play a new source
+elapseLeft=5397744.000000
+lastFile=201207081200.s48
+buf = 201207091200.s48
+Using S48 File: /home/superrh/old/201207091200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207091200.s48
+now file end
+strip before close
+File /home/superrh/old/201207091200.s48 read over    count = 12060904  time : Sat Apr  6 10:00:01 2013
+
+Sat Apr  6 10:00:01 2013
+now play a new source
+elapseLeft=1796760.000000
+lastFile=201207091200.s48
+buf = 201207101200.s48
+Using S48 File: /home/superrh/old/201207101200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=1796761
+fSize=115232256 startOffset=0  endOffset=57533322  offlen=57533323
+now play a new source, filename = /home/superrh/old/201207101200.s48
+now file end
+strip before close
+File /home/superrh/old/201207101200.s48 read over    count = 12145183  time : Sat Apr  6 10:29:59 2013
+
+Sat Apr  6 10:29:59 2013
+now play a new source
+now play a new program
+Sat Apr  6 10:29:59 CST 2013
+strftime=10:30:02
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '10:30:02' AND EndTime > '10:30:02') OR ((StartTime > EndTime) AND ((StartTime <= '10:30:02') OR (EndTime > '10:30:02'))))
+elapseLeft=1798848.000000
+lastFile=ydgqq27.mp3
+buf = ydgqq28.mp3
+Using Mp3 File: /home/superrh/music/ydgqq28.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=122304
+fSize=1956864 startOffset=0  endOffset=1956863  offlen=1956864
+now play a new source, filename = /home/superrh/music/ydgqq28.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq28.mp3 read over    count = 12150916  time : Sat Apr  6 10:32:01 2013
+
+Sat Apr  6 10:32:01 2013
+now play a new source
+elapseLeft=1676568.000000
+lastFile=ydgqq28.mp3
+buf = ydgqq29.mp3
+Using Mp3 File: /home/superrh/music/ydgqq29.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=100992
+fSize=1615872 startOffset=0  endOffset=1615871  offlen=1615872
+now play a new source, filename = /home/superrh/music/ydgqq29.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq29.mp3 read over    count = 12155650  time : Sat Apr  6 10:33:42 2013
+
+Sat Apr  6 10:33:42 2013
+now play a new source
+elapseLeft=1575600.000000
+lastFile=ydgqq29.mp3
+buf = ydgqq30.mp3
+Using Mp3 File: /home/superrh/music/ydgqq30.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=120096
+fSize=1921536 startOffset=0  endOffset=1921535  offlen=1921536
+now play a new source, filename = /home/superrh/music/ydgqq30.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq30.mp3 read over    count = 12161280  time : Sat Apr  6 10:35:42 2013
+
+Sat Apr  6 10:35:42 2013
+now play a new source
+elapseLeft=1455528.000000
+lastFile=ydgqq30.mp3
+buf = ydgqq31.mp3
+Using Mp3 File: /home/superrh/music/ydgqq31.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=119208
+fSize=1907328 startOffset=0  endOffset=1907327  offlen=1907328
+now play a new source, filename = /home/superrh/music/ydgqq31.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq31.mp3 read over    count = 12166868  time : Sat Apr  6 10:37:42 2013
+
+Sat Apr  6 10:37:42 2013
+now play a new source
+elapseLeft=1336344.000000
+lastFile=ydgqq31.mp3
+buf = 亡灵.mp3
+Using Mp3 File: /home/superrh/music/亡灵.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=246312
+fSize=3940992 startOffset=0  endOffset=3940991  offlen=3940992
+now play a new source, filename = /home/superrh/music/亡灵.mp3
+now file end
+strip before close
+File /home/superrh/music/亡灵.mp3 read over    count = 12178414  time : Sat Apr  6 10:41:48 2013
+
+Sat Apr  6 10:41:48 2013
+now play a new source
+elapseLeft=1090056.000000
+lastFile=亡灵.mp3
+buf = 伤心的爱(HEARTBREAK_LOVE).mp3
+Using Mp3 File: /home/superrh/music/伤心的爱(HEARTBREAK_LOVE).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=237792
+fSize=3804672 startOffset=0  endOffset=3804671  offlen=3804672
+now play a new source, filename = /home/superrh/music/伤心的爱(HEARTBREAK_LOVE).mp3
+now file end
+strip before close
+File /home/superrh/music/伤心的爱(HEARTBREAK_LOVE).mp3 read over    count = 12189561  time : Sat Apr  6 10:45:46 2013
+
+Sat Apr  6 10:45:46 2013
+now play a new source
+elapseLeft=852288.000000
+lastFile=伤心的爱(HEARTBREAK_LOVE).mp3
+buf = 出埃及记.mp3
+Using Mp3 File: /home/superrh/music/出埃及记.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=173016
+fSize=2768256 startOffset=0  endOffset=2768255  offlen=2768256
+now play a new source, filename = /home/superrh/music/出埃及记.mp3
+now file end
+strip before close
+File /home/superrh/music/出埃及记.mp3 read over    count = 12197671  time : Sat Apr  6 10:48:39 2013
+
+Sat Apr  6 10:48:39 2013
+now play a new source
+elapseLeft=679296.000000
+lastFile=出埃及记.mp3
+buf = 吉田洁-MATSURI.mp3
+Using Mp3 File: /home/superrh/music/吉田洁-MATSURI.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=280776
+fSize=4492416 startOffset=0  endOffset=4492415  offlen=4492416
+now play a new source, filename = /home/superrh/music/吉田洁-MATSURI.mp3
+now file end
+strip before close
+File /home/superrh/music/吉田洁-MATSURI.mp3 read over    count = 12210833  time : Sat Apr  6 10:53:19 2013
+
+Sat Apr  6 10:53:19 2013
+now play a new source
+elapseLeft=398544.000000
+lastFile=吉田洁-MATSURI.mp3
+buf = 吉田洁-TVエンディングテーマ.mp3
+Using Mp3 File: /home/superrh/music/吉田洁-TVエンディングテーマ.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=192984
+fSize=3087744 startOffset=0  endOffset=3087743  offlen=3087744
+now play a new source, filename = /home/superrh/music/吉田洁-TVエンディングテーマ.mp3
+now file end
+strip before close
+File /home/superrh/music/吉田洁-TVエンディングテーマ.mp3 read over    count = 12219879  time : Sat Apr  6 10:56:32 2013
+
+Sat Apr  6 10:56:32 2013
+now play a new source
+elapseLeft=205584.000000
+lastFile=吉田洁-TVエンディングテーマ.mp3
+buf = 吉田洁-旅立ち.mp3
+Using Mp3 File: /home/superrh/music/吉田洁-旅立ち.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=205585
+fSize=3301632 startOffset=0  endOffset=3293904  offlen=3293905
+now play a new source, filename = /home/superrh/music/吉田洁-旅立ち.mp3
+now file end
+strip before close
+File /home/superrh/music/吉田洁-旅立ち.mp3 read over    count = 12229530  time : Sat Apr  6 10:59:58 2013
+
+Sat Apr  6 10:59:58 2013
+now play a new source
+now play a new program
+Sat Apr  6 10:59:58 CST 2013
+strftime=11:00:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '11:00:01' AND EndTime > '11:00:01') OR ((StartTime > EndTime) AND ((StartTime <= '11:00:01') OR (EndTime > '11:00:01'))))
+elapseLeft=7199736.000000
+lastFile=201207101200.s48
+buf = 201207111200.s48
+Using S48 File: /home/superrh/old/201207111200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207111200.s48
+now file end
+strip before close
+File /home/superrh/old/201207111200.s48 read over    count = 12398328  time : Sat Apr  6 11:59:59 2013
+
+Sat Apr  6 11:59:59 2013
+now play a new source
+elapseLeft=3598752.000000
+lastFile=201207111200.s48
+buf = 201207121200.s48
+Using S48 File: /home/superrh/old/201207121200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3598753
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207121200.s48
+now file end
+strip before close
+File /home/superrh/old/201207121200.s48 read over    count = 12567078  time : Sat Apr  6 12:59:59 2013
+
+Sat Apr  6 12:59:59 2013
+now play a new source
+now play a new program
+Sat Apr  6 12:59:59 CST 2013
+strftime=13:00:02
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '13:00:02' AND EndTime > '13:00:02') OR ((StartTime > EndTime) AND ((StartTime <= '13:00:02') OR (EndTime > '13:00:02'))))
+elapseLeft=7798776.000000
+lastFile=201207121200.s48
+buf = 201207131200.s48
+Using S48 File: /home/superrh/old/201207131200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207131200.s48
+now file end
+strip before close
+File /home/superrh/old/201207131200.s48 read over    count = 12735876  time : Sat Apr  6 14:00:00 2013
+
+Sat Apr  6 14:00:00 2013
+now play a new source
+elapseLeft=4197792.000000
+lastFile=201207131200.s48
+buf = 201207141200.s48
+Using S48 File: /home/superrh/old/201207141200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207141200.s48
+now file end
+strip before close
+File /home/superrh/old/201207141200.s48 read over    count = 12904674  time : Sat Apr  6 15:00:01 2013
+
+Sat Apr  6 15:00:01 2013
+now play a new source
+elapseLeft=596808.000000
+lastFile=201207141200.s48
+buf = 201207151200.s48
+Using S48 File: /home/superrh/old/201207151200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=596809
+fSize=115232256 startOffset=0  endOffset=19110752  offlen=19110753
+now play a new source, filename = /home/superrh/old/201207151200.s48
+now file end
+strip before close
+File /home/superrh/old/201207151200.s48 read over    count = 12932669  time : Sat Apr  6 15:09:58 2013
+
+Sat Apr  6 15:09:58 2013
+now play a new source
+now play a new program
+Sat Apr  6 15:09:58 CST 2013
+strftime=15:10:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '15:10:01' AND EndTime > '15:10:01') OR ((StartTime > EndTime) AND ((StartTime <= '15:10:01') OR (EndTime > '15:10:01'))))
+elapseLeft=4199616.000000
+lastFile=吉田洁-旅立ち.mp3
+buf = 吉田洁-望乡.mp3
+Using Mp3 File: /home/superrh/music/吉田洁-望乡.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=125856
+fSize=2013696 startOffset=0  endOffset=2013695  offlen=2013696
+now play a new source, filename = /home/superrh/music/吉田洁-望乡.mp3
+now file end
+strip before close
+File /home/superrh/music/吉田洁-望乡.mp3 read over    count = 12938569  time : Sat Apr  6 15:12:04 2013
+
+Sat Apr  6 15:12:04 2013
+now play a new source
+elapseLeft=4073784.000000
+lastFile=吉田洁-望乡.mp3
+buf = 土耳其进行曲（莫扎特）.mp3
+Using Mp3 File: /home/superrh/music/土耳其进行曲（莫扎特）.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=200976
+fSize=3215616 startOffset=0  endOffset=3215615  offlen=3215616
+now play a new source, filename = /home/superrh/music/土耳其进行曲（莫扎特）.mp3
+now file end
+strip before close
+File /home/superrh/music/土耳其进行曲（莫扎特）.mp3 read over    count = 12947990  time : Sat Apr  6 15:15:25 2013
+
+Sat Apr  6 15:15:25 2013
+now play a new source
+elapseLeft=3872832.000000
+lastFile=土耳其进行曲（莫扎特）.mp3
+buf = 天空之城.mp3
+Using Mp3 File: /home/superrh/music/天空之城.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=154416
+fSize=2470656 startOffset=0  endOffset=2470655  offlen=2470656
+now play a new source, filename = /home/superrh/music/天空之城.mp3
+now file end
+strip before close
+File /home/superrh/music/天空之城.mp3 read over    count = 12955229  time : Sat Apr  6 15:18:00 2013
+
+Sat Apr  6 15:18:00 2013
+now play a new source
+elapseLeft=3718440.000000
+lastFile=天空之城.mp3
+buf = 宋家王朝(THE_SOONG_SISTER).mp3
+Using Mp3 File: /home/superrh/music/宋家王朝(THE_SOONG_SISTER).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=232752
+fSize=3724032 startOffset=0  endOffset=3724031  offlen=3724032
+now play a new source, filename = /home/superrh/music/宋家王朝(THE_SOONG_SISTER).mp3
+now file end
+strip before close
+File /home/superrh/music/宋家王朝(THE_SOONG_SISTER).mp3 read over    count = 12966140  time : Sat Apr  6 15:21:52 2013
+
+Sat Apr  6 15:21:52 2013
+now play a new source
+elapseLeft=3485712.000000
+lastFile=宋家王朝(THE_SOONG_SISTER).mp3
+buf = 宗次郎-幼き瞳～.mp3
+Using Mp3 File: /home/superrh/music/宗次郎-幼き瞳～.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=275160
+fSize=4402560 startOffset=0  endOffset=4402559  offlen=4402560
+now play a new source, filename = /home/superrh/music/宗次郎-幼き瞳～.mp3
+now file end
+strip before close
+File /home/superrh/music/宗次郎-幼き瞳～.mp3 read over    count = 12979038  time : Sat Apr  6 15:26:27 2013
+
+Sat Apr  6 15:26:27 2013
+now play a new source
+elapseLeft=3210576.000000
+lastFile=宗次郎-幼き瞳～.mp3
+buf = 尽情哭泣_《阿育王》插曲.mp3
+Using Mp3 File: /home/superrh/music/尽情哭泣_《阿育王》插曲.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=242064
+fSize=3873024 startOffset=0  endOffset=3873023  offlen=3873024
+now play a new source, filename = /home/superrh/music/尽情哭泣_《阿育王》插曲.mp3
+now file end
+strip before close
+File /home/superrh/music/尽情哭泣_《阿育王》插曲.mp3 read over    count = 12990385  time : Sat Apr  6 15:30:29 2013
+
+Sat Apr  6 15:30:29 2013
+now play a new source
+elapseLeft=2968536.000000
+lastFile=尽情哭泣_《阿育王》插曲.mp3
+buf = 忧伤还是快乐.mp3
+Using Mp3 File: /home/superrh/music/忧伤还是快乐.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=230208
+fSize=3683328 startOffset=0  endOffset=3683327  offlen=3683328
+now play a new source, filename = /home/superrh/music/忧伤还是快乐.mp3
+now file end
+strip before close
+File /home/superrh/music/忧伤还是快乐.mp3 read over    count = 13001176  time : Sat Apr  6 15:34:20 2013
+
+Sat Apr  6 15:34:20 2013
+now play a new source
+elapseLeft=2738352.000000
+lastFile=忧伤还是快乐.mp3
+buf = 情书(LOVELETTER_TO_YOU).mp3
+Using Mp3 File: /home/superrh/music/情书(LOVELETTER_TO_YOU).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=190488
+fSize=3047808 startOffset=0  endOffset=3047807  offlen=3047808
+now play a new source, filename = /home/superrh/music/情书(LOVELETTER_TO_YOU).mp3
+now file end
+strip before close
+File /home/superrh/music/情书(LOVELETTER_TO_YOU).mp3 read over    count = 13010105  time : Sat Apr  6 15:37:30 2013
+
+Sat Apr  6 15:37:30 2013
+now play a new source
+elapseLeft=2547888.000000
+lastFile=情书(LOVELETTER_TO_YOU).mp3
+buf = 摇篮曲-舒伯特.mp3
+Using Mp3 File: /home/superrh/music/摇篮曲-舒伯特.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=143352
+fSize=2293632 startOffset=0  endOffset=2293631  offlen=2293632
+now play a new source, filename = /home/superrh/music/摇篮曲-舒伯特.mp3
+now file end
+strip before close
+File /home/superrh/music/摇篮曲-舒伯特.mp3 read over    count = 13016825  time : Sat Apr  6 15:39:53 2013
+
+Sat Apr  6 15:39:53 2013
+now play a new source
+elapseLeft=2404560.000000
+lastFile=摇篮曲-舒伯特.mp3
+buf = 故乡的原风景.mp3
+Using Mp3 File: /home/superrh/music/故乡的原风景.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=282696
+fSize=4523136 startOffset=0  endOffset=4523135  offlen=4523136
+now play a new source, filename = /home/superrh/music/故乡的原风景.mp3
+now file end
+strip before close
+File /home/superrh/music/故乡的原风景.mp3 read over    count = 13030077  time : Sat Apr  6 15:44:36 2013
+
+Sat Apr  6 15:44:36 2013
+now play a new source
+elapseLeft=2121888.000000
+lastFile=故乡的原风景.mp3
+buf = 月亮门(Moon_gate).mp3
+Using Mp3 File: /home/superrh/music/月亮门(Moon_gate).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=255216
+fSize=4083456 startOffset=0  endOffset=4083455  offlen=4083456
+now play a new source, filename = /home/superrh/music/月亮门(Moon_gate).mp3
+now file end
+strip before close
+File /home/superrh/music/月亮门(Moon_gate).mp3 read over    count = 13042041  time : Sat Apr  6 15:48:51 2013
+
+Sat Apr  6 15:48:51 2013
+now play a new source
+elapseLeft=1866696.000000
+lastFile=月亮门(Moon_gate).mp3
+buf = 杨柳.mp3
+Using Mp3 File: /home/superrh/music/杨柳.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=277968
+fSize=4447488 startOffset=0  endOffset=4447487  offlen=4447488
+now play a new source, filename = /home/superrh/music/杨柳.mp3
+now file end
+strip before close
+File /home/superrh/music/杨柳.mp3 read over    count = 13055071  time : Sat Apr  6 15:53:29 2013
+
+Sat Apr  6 15:53:29 2013
+now play a new source
+elapseLeft=1588752.000000
+lastFile=杨柳.mp3
+buf = 海浪.mp3
+Using Mp3 File: /home/superrh/music/海浪.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=317592
+fSize=5081472 startOffset=0  endOffset=5081471  offlen=5081472
+now play a new source, filename = /home/superrh/music/海浪.mp3
+now file end
+strip before close
+File /home/superrh/music/海浪.mp3 read over    count = 13069958  time : Sat Apr  6 15:58:47 2013
+
+Sat Apr  6 15:58:47 2013
+now play a new source
+elapseLeft=1271184.000000
+lastFile=海浪.mp3
+buf = 爱的罗曼史.mp3
+Using Mp3 File: /home/superrh/music/爱的罗曼史.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=194928
+fSize=3118848 startOffset=0  endOffset=3118847  offlen=3118848
+now play a new source, filename = /home/superrh/music/爱的罗曼史.mp3
+now file end
+strip before close
+File /home/superrh/music/爱的罗曼史.mp3 read over    count = 13079096  time : Sat Apr  6 16:02:02 2013
+
+Sat Apr  6 16:02:02 2013
+now play a new source
+elapseLeft=1076280.000000
+lastFile=爱的罗曼史.mp3
+buf = 王都炎上.mp3
+Using Mp3 File: /home/superrh/music/王都炎上.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=163152
+fSize=2610432 startOffset=0  endOffset=2610431  offlen=2610432
+now play a new source, filename = /home/superrh/music/王都炎上.mp3
+now file end
+strip before close
+File /home/superrh/music/王都炎上.mp3 read over    count = 13086744  time : Sat Apr  6 16:04:45 2013
+
+Sat Apr  6 16:04:45 2013
+now play a new source
+elapseLeft=913152.000000
+lastFile=王都炎上.mp3
+buf = 理查德克莱德曼_钢琴曲_毕业生.mp3
+Using Mp3 File: /home/superrh/music/理查德克莱德曼_钢琴曲_毕业生.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=208080
+fSize=3329280 startOffset=0  endOffset=3329279  offlen=3329280
+now play a new source, filename = /home/superrh/music/理查德克莱德曼_钢琴曲_毕业生.mp3
+now file end
+strip before close
+File /home/superrh/music/理查德克莱德曼_钢琴曲_毕业生.mp3 read over    count = 13096498  time : Sat Apr  6 16:08:13 2013
+
+Sat Apr  6 16:08:13 2013
+now play a new source
+elapseLeft=705096.000000
+lastFile=理查德克莱德曼_钢琴曲_毕业生.mp3
+buf = 神秘园-Windancer.mp3
+Using Mp3 File: /home/superrh/music/神秘园-Windancer.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=202728
+fSize=3243648 startOffset=0  endOffset=3243647  offlen=3243648
+now play a new source, filename = /home/superrh/music/神秘园-Windancer.mp3
+now file end
+strip before close
+File /home/superrh/music/神秘园-Windancer.mp3 read over    count = 13106001  time : Sat Apr  6 16:11:36 2013
+
+Sat Apr  6 16:11:36 2013
+now play a new source
+elapseLeft=502392.000000
+lastFile=神秘园-Windancer.mp3
+buf = 纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+Using Mp3 File: /home/superrh/music/纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=195312
+fSize=3124992 startOffset=0  endOffset=3124991  offlen=3124992
+now play a new source, filename = /home/superrh/music/纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+now file end
+strip before close
+File /home/superrh/music/纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3 read over    count = 13115157  time : Sat Apr  6 16:14:51 2013
+
+Sat Apr  6 16:14:51 2013
+now play a new source
+elapseLeft=307104.000000
+lastFile=纯音乐-且听风吟(电视剧《蜗居》钢琴插曲).mp3
+buf = 纯音乐-柔板(Adagio).mp3
+Using Mp3 File: /home/superrh/music/纯音乐-柔板(Adagio).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=175680
+fSize=2810880 startOffset=0  endOffset=2810879  offlen=2810880
+now play a new source, filename = /home/superrh/music/纯音乐-柔板(Adagio).mp3
+now file end
+strip before close
+File /home/superrh/music/纯音乐-柔板(Adagio).mp3 read over    count = 13123392  time : Sat Apr  6 16:17:47 2013
+
+Sat Apr  6 16:17:47 2013
+now play a new source
+elapseLeft=131448.000000
+lastFile=纯音乐-柔板(Adagio).mp3
+buf = 阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+Using Mp3 File: /home/superrh/music/阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=131449
+fSize=4228608 startOffset=0  endOffset=2106191  offlen=2106192
+now play a new source, filename = /home/superrh/music/阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+now file end
+strip before close
+File /home/superrh/music/阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3 read over    count = 13129563  time : Sat Apr  6 16:19:58 2013
+
+Sat Apr  6 16:19:58 2013
+now play a new source
+now play a new program
+Sat Apr  6 16:19:58 CST 2013
+strftime=16:20:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '16:20:01' AND EndTime > '16:20:01') OR ((StartTime > EndTime) AND ((StartTime <= '16:20:01') OR (EndTime > '16:20:01'))))
+elapseLeft=1199832.000000
+lastFile=阿兰蒂斯之恋(ARANJUEZ_MON_AUOUR).mp3
+buf = 雪的梦幻(Snowdreams).mp3
+Using Mp3 File: /home/superrh/music/雪的梦幻(Snowdreams).mp3
+frameTime = 24 MS
+startMSec=0  endMSec=293472
+fSize=4695552 startOffset=0  endOffset=4695551  offlen=4695552
+now play a new source, filename = /home/superrh/music/雪的梦幻(Snowdreams).mp3
+now file end
+strip before close
+File /home/superrh/music/雪的梦幻(Snowdreams).mp3 read over    count = 13143320  time : Sat Apr  6 16:24:52 2013
+
+Sat Apr  6 16:24:52 2013
+now play a new source
+elapseLeft=906384.000000
+lastFile=雪的梦幻(Snowdreams).mp3
+another list circle
+Using Mp3 File: /home/superrh/music/15-AudioTrack.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=109704
+fSize=1755264 startOffset=0  endOffset=1755263  offlen=1755264
+now play a new source, filename = /home/superrh/music/15-AudioTrack.mp3
+now file end
+strip before close
+File /home/superrh/music/15-AudioTrack.mp3 read over    count = 13148463  time : Sat Apr  6 16:26:41 2013
+
+Sat Apr  6 16:26:41 2013
+now play a new source
+elapseLeft=796704.000000
+lastFile=15-AudioTrack.mp3
+buf = 52-AudioTrack.mp3
+Using Mp3 File: /home/superrh/music/52-AudioTrack.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=104616
+fSize=1673856 startOffset=0  endOffset=1673855  offlen=1673856
+now play a new source, filename = /home/superrh/music/52-AudioTrack.mp3
+now file end
+strip before close
+File /home/superrh/music/52-AudioTrack.mp3 read over    count = 13153367  time : Sat Apr  6 16:28:26 2013
+
+Sat Apr  6 16:28:26 2013
+now play a new source
+elapseLeft=692112.000000
+lastFile=52-AudioTrack.mp3
+buf = Childhood_Memory.mp3
+Using Mp3 File: /home/superrh/music/Childhood_Memory.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=195888
+fSize=3134208 startOffset=0  endOffset=3134207  offlen=3134208
+now play a new source, filename = /home/superrh/music/Childhood_Memory.mp3
+now file end
+strip before close
+File /home/superrh/music/Childhood_Memory.mp3 read over    count = 13162550  time : Sat Apr  6 16:31:42 2013
+
+Sat Apr  6 16:31:42 2013
+now play a new source
+elapseLeft=496248.000000
+lastFile=Childhood_Memory.mp3
+buf = Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+Using Mp3 File: /home/superrh/music/Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=151536
+fSize=2424576 startOffset=0  endOffset=2424575  offlen=2424576
+now play a new source, filename = /home/superrh/music/Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+now file end
+strip before close
+File /home/superrh/music/Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3 read over    count = 13169654  time : Sat Apr  6 16:34:13 2013
+
+Sat Apr  6 16:34:13 2013
+now play a new source
+elapseLeft=344736.000000
+lastFile=Dj_Smash_Feat_Fast_Food_Moscow_Never_Sleeps_freestyle_remix.mp3
+buf = GERRN_SHANNEL.mp3
+Using Mp3 File: /home/superrh/music/GERRN_SHANNEL.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=227424
+fSize=3638784 startOffset=0  endOffset=3638783  offlen=3638784
+now play a new source, filename = /home/superrh/music/GERRN_SHANNEL.mp3
+now file end
+strip before close
+File /home/superrh/music/GERRN_SHANNEL.mp3 read over    count = 13180315  time : Sat Apr  6 16:38:01 2013
+
+Sat Apr  6 16:38:01 2013
+now play a new source
+elapseLeft=117336.000000
+lastFile=GERRN_SHANNEL.mp3
+buf = Liekkas.mp3
+Using Mp3 File: /home/superrh/music/Liekkas.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=117337
+fSize=3262464 startOffset=0  endOffset=1880079  offlen=1880080
+now play a new source, filename = /home/superrh/music/Liekkas.mp3
+now file end
+strip before close
+File /home/superrh/music/Liekkas.mp3 read over    count = 13185824  time : Sat Apr  6 16:39:58 2013
+
+Sat Apr  6 16:39:58 2013
+now play a new source
+now play a new program
+Sat Apr  6 16:39:58 CST 2013
+strftime=16:40:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '16:40:01' AND EndTime > '16:40:01') OR ((StartTime > EndTime) AND ((StartTime <= '16:40:01') OR (EndTime > '16:40:01'))))
+elapseLeft=1199832.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 13193569  time : Sat Apr  6 16:42:43 2013
+
+Sat Apr  6 16:42:43 2013
+now play a new source
+elapseLeft=1034640.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 13201314  time : Sat Apr  6 16:45:29 2013
+
+Sat Apr  6 16:45:29 2013
+now play a new source
+elapseLeft=869448.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 13209059  time : Sat Apr  6 16:48:14 2013
+
+Sat Apr  6 16:48:14 2013
+now play a new source
+elapseLeft=704256.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 13216804  time : Sat Apr  6 16:50:59 2013
+
+Sat Apr  6 16:50:59 2013
+now play a new source
+elapseLeft=539064.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 13224549  time : Sat Apr  6 16:53:44 2013
+
+Sat Apr  6 16:53:44 2013
+now play a new source
+elapseLeft=373872.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 13232294  time : Sat Apr  6 16:56:29 2013
+
+Sat Apr  6 16:56:29 2013
+now play a new source
+elapseLeft=208680.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=165216
+fSize=2643456 startOffset=0  endOffset=2643455  offlen=2643456
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 13240039  time : Sat Apr  6 16:59:14 2013
+
+Sat Apr  6 16:59:14 2013
+now play a new source
+elapseLeft=43488.000000
+Using Mp3 File: /home/superrh/music/ydgqq13.mp3
+frameTime = 24 MS
+startMSec=0  endMSec=43489
+fSize=2643456 startOffset=0  endOffset=697006  offlen=697007
+now play a new source, filename = /home/superrh/music/ydgqq13.mp3
+now file end
+strip before close
+File /home/superrh/music/ydgqq13.mp3 read over    count = 13242082  time : Sat Apr  6 16:59:58 2013
+
+Sat Apr  6 16:59:58 2013
+now play a new source
+now play a new program
+Sat Apr  6 16:59:58 CST 2013
+strftime=17:00:01
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '17:00:01' AND EndTime > '17:00:01') OR ((StartTime > EndTime) AND ((StartTime <= '17:00:01') OR (EndTime > '17:00:01'))))
+elapseLeft=25199928.000000
+lastFile=201207151200.s48
+buf = 201207161200.s48
+Using S48 File: /home/superrh/old/201207161200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207161200.s48
+now file end
+strip before close
+File /home/superrh/old/201207161200.s48 read over    count = 13410880  time : Sat Apr  6 17:59:59 2013
+
+Sat Apr  6 17:59:59 2013
+now play a new source
+elapseLeft=21598944.000000
+lastFile=201207161200.s48
+buf = 201207171200.s48
+Using S48 File: /home/superrh/old/201207171200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207171200.s48
+now file end
+strip before close
+File /home/superrh/old/201207171200.s48 read over    count = 13579678  time : Sat Apr  6 19:00:00 2013
+
+Sat Apr  6 19:00:00 2013
+now play a new source
+elapseLeft=17997960.000000
+lastFile=201207171200.s48
+buf = 201207181200.s48
+Using S48 File: /home/superrh/old/201207181200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207181200.s48
+now file end
+strip before close
+File /home/superrh/old/201207181200.s48 read over    count = 13748428  time : Sat Apr  6 20:00:00 2013
+
+Sat Apr  6 20:00:00 2013
+now play a new source
+elapseLeft=14397984.000000
+lastFile=201207181200.s48
+buf = 201207191200.s48
+Using S48 File: /home/superrh/old/201207191200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207191200.s48
+now file end
+strip before close
+File /home/superrh/old/201207191200.s48 read over    count = 13917178  time : Sat Apr  6 21:00:00 2013
+
+Sat Apr  6 21:00:00 2013
+now play a new source
+elapseLeft=10798008.000000
+lastFile=201207191200.s48
+buf = 201207201200.s48
+Using S48 File: /home/superrh/old/201207201200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207201200.s48
+now file end
+strip before close
+File /home/superrh/old/201207201200.s48 read over    count = 14085928  time : Sat Apr  6 22:00:00 2013
+
+Sat Apr  6 22:00:00 2013
+now play a new source
+elapseLeft=7198032.000000
+lastFile=201207201200.s48
+buf = 201207211200.s48
+Using S48 File: /home/superrh/old/201207211200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207211200.s48
+now file end
+strip before close
+File /home/superrh/old/201207211200.s48 read over    count = 14254678  time : Sat Apr  6 23:00:00 2013
+
+Sat Apr  6 23:00:00 2013
+now play a new source
+elapseLeft=3598056.000000
+lastFile=201207211200.s48
+buf = 201207221200.s48
+Using S48 File: /home/superrh/old/201207221200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3598057
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207221200.s48
+now file end
+strip before close
+File /home/superrh/old/201207221200.s48 read over    count = 14423428  time : Sun Apr  7 00:00:00 2013
+
+Sun Apr  7 00:00:00 2013
+now play a new source
+now play a new program
+Sun Apr  7 00:00:00 CST 2013
+strftime=00:00:03
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '00:00:03' AND EndTime > '00:00:03') OR ((StartTime > EndTime) AND ((StartTime <= '00:00:03') OR (EndTime > '00:00:03'))))
+elapseLeft=28798080.000000
+lastFile=201207221200.s48
+buf = 201207231200.s48
+Using S48 File: /home/superrh/old/201207231200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207231200.s48
+now file end
+strip before close
+File /home/superrh/old/201207231200.s48 read over    count = 14592178  time : Sun Apr  7 01:00:00 2013
+
+Sun Apr  7 01:00:00 2013
+now play a new source
+elapseLeft=25198104.000000
+lastFile=201207231200.s48
+buf = 201207241200.s48
+Using S48 File: /home/superrh/old/201207241200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207241200.s48
+now file end
+strip before close
+File /home/superrh/old/201207241200.s48 read over    count = 14760928  time : Sun Apr  7 02:00:00 2013
+
+Sun Apr  7 02:00:00 2013
+now play a new source
+elapseLeft=21598128.000000
+lastFile=201207241200.s48
+buf = 201207251200.s48
+Using S48 File: /home/superrh/old/201207251200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207251200.s48
+now file end
+strip before close
+File /home/superrh/old/201207251200.s48 read over    count = 14929726  time : Sun Apr  7 03:00:01 2013
+
+Sun Apr  7 03:00:01 2013
+now play a new source
+elapseLeft=17997144.000000
+lastFile=201207251200.s48
+buf = 201207261200.s48
+Using S48 File: /home/superrh/old/201207261200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207261200.s48
+now file end
+strip before close
+File /home/superrh/old/201207261200.s48 read over    count = 15098524  time : Sun Apr  7 04:00:02 2013
+
+Sun Apr  7 04:00:02 2013
+now play a new source
+elapseLeft=14396160.000000
+lastFile=201207261200.s48
+buf = 201207271200.s48
+Using S48 File: /home/superrh/old/201207271200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207271200.s48
+now file end
+strip before close
+File /home/superrh/old/201207271200.s48 read over    count = 15267322  time : Sun Apr  7 05:00:03 2013
+
+Sun Apr  7 05:00:03 2013
+now play a new source
+elapseLeft=10795176.000000
+lastFile=201207271200.s48
+buf = 201207281200.s48
+Using S48 File: /home/superrh/old/201207281200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3601008
+fSize=115232256 startOffset=0  endOffset=115232255  offlen=115232256
+now play a new source, filename = /home/superrh/old/201207281200.s48
+now file end
+strip before close
+File /home/superrh/old/201207281200.s48 read over    count = 15436120  time : Sun Apr  7 06:00:04 2013
+
+Sun Apr  7 06:00:04 2013
+now play a new source
+elapseLeft=7194192.000000
+lastFile=201207281200.s48
+buf = 201207291200.s48
+Using S48 File: /home/superrh/old/201207291200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207291200.s48
+now file end
+strip before close
+File /home/superrh/old/201207291200.s48 read over    count = 15604870  time : Sun Apr  7 07:00:04 2013
+
+Sun Apr  7 07:00:04 2013
+now play a new source
+elapseLeft=3594216.000000
+lastFile=201207291200.s48
+buf = 201207301200.s48
+Using S48 File: /home/superrh/old/201207301200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3594217
+fSize=115200000 startOffset=0  endOffset=115088055  offlen=115088056
+now play a new source, filename = /home/superrh/old/201207301200.s48
+now file end
+strip before close
+File /home/superrh/old/201207301200.s48 read over    count = 15773457  time : Sun Apr  7 08:00:00 2013
+
+Sun Apr  7 08:00:00 2013
+now play a new source
+now play a new program
+Sun Apr  7 08:00:00 CST 2013
+strftime=08:00:03
+sql = SELECT StartTime,EndTime,Elapse,SourceType,FilePath,FileName,Samples,BitsPerSample,Channel,DoW,SpecDate FROM EPGS_0024 WHERE FreqPath = '/var/www/html/radios/shenyang/freqs/305' AND ((StartTime <= '08:00:03' AND EndTime > '08:00:03') OR ((StartTime > EndTime) AND ((StartTime <= '08:00:03') OR (EndTime > '08:00:03'))))
+elapseLeft=8997720.000000
+lastFile=201207301200.s48
+buf = 201207311200.s48
+Using S48 File: /home/superrh/old/201207311200.s48
+frameTime = 24 MS
+startMSec=0  endMSec=3600000
+fSize=115200000 startOffset=0  endOffset=115199999  offlen=115200000
+now play a new source, filename = /home/superrh/old/201207311200.s48
